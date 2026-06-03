@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#f0f4ff">
+<title>FUTABA課題曲</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap');
+
+  :root {
+    --bg: #f0f4ff;
+    --bg2: #ffffff;
+    --bg3: #f5f7ff;
+    --bg4: #e8ecfa;
+    --border: rgba(100,110,200,0.15);
+    --text: #1a1a2e;
+    --text2: #5a5a7a;
+    --text3: #9a9ab0;
+    --accent: #5b4fe8;
+    --accent2: #7c6af7;
+    --accent-bg: rgba(91,79,232,0.08);
+    --blue: #2563eb;
+    --blue-bg: rgba(37,99,235,0.1);
+    --yellow: #d97706;
+    --yellow-bg: rgba(217,119,6,0.1);
+    --red: #dc2626;
+    --red-bg: rgba(220,38,38,0.1);
+    --green: #059669;
+    --green-bg: rgba(5,150,105,0.1);
+    --radius: 14px;
+    --radius-sm: 9px;
+    --shadow: 0 2px 12px rgba(91,79,232,0.08);
+    --exh: #dc2626;
+    --mxm: #4b5563;
+    --inf: #f472b6;
+    --grv: #b45309;
+    --hvn: #0891b2;
+    --vvd: #f0127a;
+    --xcd: #1d4ed8;
+    --nbl: #16a34a;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Noto Sans JP', sans-serif;
+    min-height: 100vh;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+
+  /* ── HEADER ── */
+  .header {
+    position: sticky; top: 0; z-index: 100;
+    background: rgba(240,244,255,0.96);
+    backdrop-filter: blur(16px);
+    padding: 12px 14px 10px;
+    border-bottom: 1px solid var(--border);
+    box-shadow: 0 1px 8px rgba(91,79,232,0.06);
+  }
+
+  .header-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+
+  .header-title {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 19px; font-weight: 700; letter-spacing: 1.5px;
+    color: var(--accent);
+  }
+
+  .header-count { font-size: 11px; color: var(--text3); }
+
+  /* ── HEADER TOGGLES ── */
+  .header-toggles { display: flex; flex-direction: column; gap: 5px; margin-bottom: 8px; }
+
+  .toggle-group { display: flex; gap: 4px; align-items: center; }
+
+  .toggle-group-label {
+    font-family: 'Rajdhani', sans-serif; font-size: 10px; font-weight: 700;
+    color: var(--text3); letter-spacing: 0.8px; text-transform: uppercase;
+    width: 26px; flex-shrink: 0;
+  }
+
+  .hdr-chip {
+    background: var(--bg2); border: 1.5px solid var(--border);
+    border-radius: var(--radius-sm); padding: 5px 6px; text-align: center;
+    font-size: 11px; color: var(--text2); cursor: pointer;
+    transition: all 0.15s; font-family: 'Noto Sans JP', sans-serif;
+    white-space: nowrap; flex: 1;
+    box-shadow: var(--shadow);
+  }
+  .hdr-chip:active { transform: scale(0.96); }
+  .hdr-chip.sel {
+    background: var(--accent-bg); border-color: var(--accent);
+    color: var(--accent); font-weight: 700;
+  }
+
+  /* ── SEARCH ROW ── */
+  .search-row { display: flex; gap: 8px; align-items: center; }
+  .search-wrap { flex: 1; position: relative; }
+
+  .search-icon {
+    position: absolute; left: 10px; top: 50%; transform: translateY(-50%);
+    color: var(--text3); font-size: 14px; pointer-events: none;
+  }
+
+  .search-input {
+    width: 100%; background: var(--bg2);
+    border: 1.5px solid var(--border); border-radius: var(--radius-sm);
+    padding: 8px 32px 8px 32px; color: var(--text); font-size: 14px;
+    font-family: 'Noto Sans JP', sans-serif; outline: none;
+    box-shadow: var(--shadow); transition: border-color 0.2s;
+  }
+  .search-input:focus { border-color: var(--accent2); }
+  .search-input::placeholder { color: var(--text3); }
+
+  .search-clear {
+    position: absolute; right: 10px; top: 50%; transform: translateY(-50%);
+    background: var(--text3); color: white; border: none; border-radius: 50%;
+    width: 16px; height: 16px; font-size: 10px; cursor: pointer;
+    display: none; align-items: center; justify-content: center; line-height: 1;
+    padding: 0; font-family: sans-serif;
+  }
+  .search-clear.show { display: flex; }
+
+  .filter-btn {
+    background: var(--bg2); border: 1.5px solid var(--border);
+    border-radius: var(--radius-sm); padding: 8px 12px;
+    color: var(--text2); font-size: 13px; cursor: pointer;
+    display: flex; align-items: center; gap: 5px; white-space: nowrap;
+    box-shadow: var(--shadow); transition: all 0.2s;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  .filter-btn.active { border-color: var(--accent); color: var(--accent); background: var(--accent-bg); }
+
+  .filter-indicator { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); display: none; }
+  .filter-indicator.show { display: block; }
+
+  /* ── PILLS ── */
+  .active-filters { display: flex; flex-wrap: wrap; gap: 5px; padding: 8px 14px 0; }
+  .filter-pill {
+    background: var(--accent-bg); border: 1px solid rgba(91,79,232,0.2);
+    border-radius: 20px; padding: 3px 10px; font-size: 11px; color: var(--accent);
+    display: flex; align-items: center; gap: 5px; cursor: pointer;
+  }
+
+  /* ── LIST ── */
+  .list { padding: 8px 12px 100px; }
+  .result-info { font-size: 11px; color: var(--text3); padding: 8px 2px 6px; }
+
+  /* ── SONG CARD ── */
+  .song-card {
+    background: var(--bg2); border: 1.5px solid var(--border);
+    border-radius: var(--radius); margin-bottom: 8px; overflow: hidden;
+    cursor: pointer; transition: transform 0.12s, box-shadow 0.12s;
+    position: relative; box-shadow: var(--shadow);
+  }
+  .song-card:active { transform: scale(0.98); box-shadow: none; }
+
+  .card-danger-bar { position: absolute; left: 0; top: 0; bottom: 0; width: 4px; border-radius: 14px 0 0 14px; }
+  .song-card .card-danger-bar { background: #5b4fe8; }
+  .danger-none  .card-danger-bar { background: var(--blue);   }
+  .danger-caution .card-danger-bar { background: var(--yellow); }
+  .danger-danger  .card-danger-bar { background: var(--red);    }
+
+  .card-inner { display: flex; align-items: center; gap: 8px; padding: 10px 12px 10px 14px; }
+
+  .jacket { width: 52px; height: 52px; border-radius: 8px; background: var(--bg4); flex-shrink: 0; overflow: hidden; border: 2px solid var(--bg4); box-sizing: border-box; }
+  .jacket img { width: 100%; height: 100%; object-fit: cover; border-radius: 6px; }
+  .jacket-exh { border-color: var(--exh); }
+  .jacket-mxm { border-color: var(--mxm); }
+  .jacket-inf { border-color: var(--inf); }
+  .jacket-grv { border-color: var(--grv); }
+  .jacket-hvn { border-color: var(--hvn); }
+  .jacket-vvd { border-color: var(--vvd); }
+  .jacket-xcd { border-color: var(--xcd); }
+  .jacket-nbl { border-color: var(--nbl); }
+  .jacket-nov, .jacket-adv { border-color: var(--border); }
+
+  .card-body { flex: 1; min-width: 0; }
+  .card-title { font-size: 13px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 4px; color: var(--text); }
+  .card-meta { display: flex; align-items: center; gap: 5px; flex-wrap: wrap; }
+
+  .badge { font-family: 'Rajdhani', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; padding: 2px 7px; border-radius: 5px; background: var(--bg4); color: var(--text2); }
+  .badge-exh { color: #fff; background: var(--exh); }
+  .badge-mxm { color: #fff; background: var(--mxm); }
+  .badge-inf { color: #fff; background: var(--inf); }
+  .badge-grv { color: #fff; background: var(--grv); }
+  .badge-hvn { color: #fff; background: var(--hvn); }
+  .badge-vvd { color: #fff; background: var(--vvd); }
+  .badge-xcd { color: #fff; background: var(--xcd); }
+  .badge-nbl { color: #fff; background: var(--nbl); }
+  .badge-nov { color: var(--text2); background: var(--bg4); }
+  .badge-adv { color: #fff; background: #16a34a; }
+  .badge-cat { font-family: 'Noto Sans JP', sans-serif; font-size: 10px; font-weight: 400; background: var(--bg3); color: var(--text3); }
+
+  .card-memo { font-size: 11px; color: var(--text3); margin-top: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+  .card-right-badges {
+    display: flex; flex-direction: column; align-items: flex-end; gap: 3px;
+    flex-shrink: 0;
+  }
+  .card-mini-badge {
+    font-size: 9px; font-weight: 700; padding: 2px 4px; border-radius: 4px;
+    background: var(--bg4); color: var(--text3); line-height: 1.2;
+    font-family: 'Rajdhani', sans-serif; letter-spacing: 0.3px; white-space: nowrap;
+  }
+  .card-mini-badge.mirror    { background: var(--accent-bg);  color: var(--accent); }
+  .card-mini-badge.mirror-no { background: var(--bg4);        color: var(--text3); }
+  .card-mini-badge.late      { background: var(--blue-bg);    color: var(--blue); }
+  .card-mini-badge.early     { background: var(--red-bg);     color: var(--red); }
+  .card-mini-badge.normal    { background: var(--bg4);        color: var(--text3); }
+  .card-mini-badge.danger-none    { background: var(--blue-bg);   color: var(--blue); }
+  .card-mini-badge.danger-caution { background: var(--yellow-bg); color: var(--yellow); }
+  .card-mini-badge.danger-danger  { background: var(--red-bg);    color: var(--red); }
+
+  /* ── OVERLAYS ── */
+  .overlay {
+    position: fixed; inset: 0; background: rgba(30,30,60,0.4); z-index: 200;
+    display: flex; flex-direction: column; justify-content: flex-end;
+    opacity: 0; pointer-events: none; transition: opacity 0.25s;
+  }
+  .overlay.open { opacity: 1; pointer-events: all; }
+
+  #detailOverlay { justify-content: center; align-items: center; padding: 16px; }
+
+  .detail-modal {
+    background: var(--bg2); border-radius: 20px;
+    padding: 0 0 20px; max-height: 92vh; overflow-y: auto;
+    width: 100%; max-width: 460px;
+    transform: scale(0.93) translateY(12px);
+    transition: transform 0.3s cubic-bezier(0.32,0.72,0,1);
+    box-shadow: 0 8px 40px rgba(91,79,232,0.18);
+  }
+  .overlay.open .detail-modal { transform: scale(1) translateY(0); }
+
+  .modal-handle { width: 36px; height: 4px; background: var(--bg4); border-radius: 2px; margin: 12px auto 0; }
+
+  .modal-header-section {
+    display: flex; gap: 12px; align-items: flex-start;
+    padding: 14px 16px 12px; border-bottom: 1px solid var(--border);
+  }
+  .modal-jacket { width: 64px; height: 64px; border-radius: 10px; background: var(--bg4); flex-shrink: 0; overflow: hidden; border: 2.5px solid var(--bg4); box-sizing: border-box; }
+  .modal-jacket img { width: 100%; height: 100%; object-fit: cover; border-radius: 8px; }
+  .modal-jacket.jacket-exh { border-color: var(--exh); }
+  .modal-jacket.jacket-mxm { border-color: var(--mxm); }
+  .modal-jacket.jacket-inf { border-color: var(--inf); }
+  .modal-jacket.jacket-grv { border-color: var(--grv); }
+  .modal-jacket.jacket-hvn { border-color: var(--hvn); }
+  .modal-jacket.jacket-vvd { border-color: var(--vvd); }
+  .modal-jacket.jacket-xcd { border-color: var(--xcd); }
+  .modal-jacket.jacket-nbl { border-color: var(--nbl); }
+
+  .modal-header-right { flex: 1; min-width: 0; }
+  .modal-song-title { font-size: 15px; font-weight: 700; margin-bottom: 6px; color: var(--text); line-height: 1.3; }
+  .modal-song-meta { display: flex; flex-wrap: wrap; gap: 5px; align-items: center; }
+
+  .chart-inline-btn {
+    display: inline-flex; align-items: center; gap: 4px;
+    background: var(--accent); border: none;
+    border-radius: var(--radius-sm); padding: 5px 12px; font-size: 11px; color: #fff;
+    cursor: pointer; transition: all 0.15s;
+    font-family: 'Noto Sans JP', sans-serif; font-weight: 700;
+    margin-top: 6px;
+  }
+  .chart-inline-btn:active { opacity: 0.7; transform: scale(0.97); }
+
+  .modal-body { padding: 14px 16px; }
+  .field-block { margin-bottom: 16px; }
+
+  .field-label {
+    font-size: 11px; color: var(--text2); letter-spacing: 1px;
+    text-transform: uppercase; margin-bottom: 7px;
+    font-family: 'Rajdhani', sans-serif; font-weight: 700;
+  }
+
+  .toggle-row { display: flex; gap: 6px; }
+
+  .toggle-btn {
+    flex: 1; background: var(--bg3); border: 1.5px solid var(--border);
+    border-radius: var(--radius-sm); padding: 8px 4px; text-align: center;
+    font-size: 12px; color: var(--text2); cursor: pointer; transition: all 0.15s;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  .toggle-btn:active { transform: scale(0.97); }
+  .toggle-btn.sel-gray   { background: #edeef2; border-color: #c8cad8; color: var(--text2); font-weight: 700; }
+  .toggle-btn.sel-blue   { background: var(--blue-bg);   border-color: var(--blue);   color: var(--blue);   font-weight: 700; }
+  .toggle-btn.sel-yellow { background: var(--yellow-bg); border-color: var(--yellow); color: var(--yellow); font-weight: 700; }
+  .toggle-btn.sel-red    { background: var(--red-bg);    border-color: var(--red);    color: var(--red);    font-weight: 700; }
+  .toggle-btn.sel-accent { background: var(--accent-bg); border-color: var(--accent); color: var(--accent); font-weight: 700; }
+
+  .memo-area {
+    width: 100%; background: var(--bg2); border: 1.5px solid var(--border);
+    border-radius: var(--radius-sm); padding: 10px; color: var(--text);
+    font-size: 13px; font-family: 'Noto Sans JP', sans-serif;
+    resize: none; outline: none; min-height: 80px; transition: border-color 0.2s;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.04);
+  }
+  .memo-area:focus { border-color: var(--accent2); }
+
+  .save-btn {
+    width: 33%; background: var(--accent); border: none;
+    border-radius: var(--radius-sm); padding: 11px; color: white;
+    font-size: 13px; font-family: 'Noto Sans JP', sans-serif;
+    cursor: pointer; transition: all 0.15s; font-weight: 700; letter-spacing: 0.5px;
+    display: block; margin: 0 auto;
+  }
+  .save-btn:active { transform: scale(0.98); opacity: 0.9; }
+
+  /* ── FILTER MODAL ── */
+  #filterOverlay { justify-content: center; align-items: center; padding: 16px; }
+  .filter-modal {
+    background: var(--bg2); border-radius: 20px;
+    padding: 0; width: 100%; max-width: 460px; max-height: 85vh; overflow-y: auto;
+    transform: scale(0.93) translateY(12px);
+    transition: transform 0.3s cubic-bezier(0.32,0.72,0,1);
+    box-shadow: 0 8px 40px rgba(91,79,232,0.18);
+  }
+  .overlay.open .filter-modal { transform: scale(1) translateY(0); }
+
+  .filter-modal-header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 16px 16px 12px; border-bottom: 1px solid var(--border);
+  }
+  .filter-modal-title { font-family: 'Rajdhani', sans-serif; font-size: 16px; font-weight: 700; letter-spacing: 1px; color: var(--text); }
+  .reset-btn {
+    background: none; border: 1.5px solid var(--border); border-radius: 6px;
+    padding: 5px 12px; color: var(--text3); font-size: 12px;
+    font-family: 'Noto Sans JP', sans-serif; cursor: pointer; transition: all 0.15s;
+  }
+  .reset-btn:active { color: var(--red); border-color: var(--red); }
+
+  .filter-modal-body { padding: 14px 16px; }
+
+  .level-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; }
+  .level-chip {
+    background: var(--bg3); border: 1.5px solid var(--border); border-radius: 7px;
+    padding: 7px 4px; text-align: center;
+    font-family: 'Rajdhani', sans-serif; font-size: 13px; font-weight: 600;
+    color: var(--text2); cursor: pointer; transition: all 0.15s;
+  }
+  .level-chip.sel { background: var(--accent-bg); border-color: var(--accent); color: var(--accent); font-weight: 700; }
+
+  .danger-grid { display: flex; gap: 6px; }
+  .danger-chip {
+    flex: 1; background: var(--bg3); border: 1.5px solid var(--border);
+    border-radius: 7px; padding: 8px 4px; text-align: center;
+    font-size: 12px; color: var(--text2); cursor: pointer; transition: all 0.15s;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  .danger-chip.sel-blue   { background: var(--blue-bg);   border-color: var(--blue);   color: var(--blue);   font-weight: 700; }
+  .danger-chip.sel-yellow { background: var(--yellow-bg); border-color: var(--yellow); color: var(--yellow); font-weight: 700; }
+  .danger-chip.sel-red    { background: var(--red-bg);    border-color: var(--red);    color: var(--red);    font-weight: 700; }
+
+  .status-toggle {
+    display: flex; background: var(--bg3); border-radius: var(--radius-sm);
+    padding: 3px; gap: 3px; border: 1.5px solid var(--border);
+  }
+  .status-opt {
+    flex: 1; text-align: center; padding: 7px 4px; border-radius: 6px;
+    font-size: 12px; color: var(--text2); cursor: pointer; transition: all 0.15s;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  .status-opt.sel { background: var(--bg2); color: var(--text); font-weight: 700; box-shadow: 0 1px 4px rgba(91,79,232,0.1); }
+
+  .apply-btn {
+    width: 33%; background: var(--accent); border: none;
+    border-radius: var(--radius-sm); padding: 11px; color: white;
+    font-size: 13px; font-family: 'Noto Sans JP', sans-serif;
+    cursor: pointer; font-weight: 700; letter-spacing: 0.5px;
+    transition: all 0.15s; display: block; margin: 12px auto 4px;
+  }
+  .apply-btn:active { opacity: 0.85; transform: scale(0.98); }
+
+  /* ── MISC ── */
+  .loading { text-align: center; padding: 60px 20px; color: var(--text3); }
+  .loading-spinner { width: 36px; height: 36px; border: 2px solid var(--bg4); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.8s linear infinite; margin: 0 auto 12px; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .loading-text { font-size: 13px; }
+  .empty { text-align: center; padding: 60px 20px; color: var(--text3); font-size: 13px; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-top">
+    <div class="header-title">FUTABA課題曲</div>
+    <div class="header-count" id="headerCount">読み込み中...</div>
+  </div>
+
+  <div class="header-toggles">
+    <!-- トグル①：グレード -->
+    <div class="toggle-group">
+      <div class="toggle-group-label">LV</div>
+      <div class="hdr-chip sel" id="g-all"     onclick="setGradeFilter('all')">すべて</div>
+      <div class="hdr-chip"    id="g-17"      onclick="setGradeFilter('17')">17</div>
+      <div class="hdr-chip"    id="g-18"      onclick="setGradeFilter('18')">18</div>
+    </div>
+    <!-- トグル②：カテゴリ -->
+    <div class="toggle-group">
+      <div class="toggle-group-label">CAT</div>
+      <div class="hdr-chip sel" id="c-all"             onclick="setCatFilter('all')">すべて</div>
+      <div class="hdr-chip"     id="c-ツマミ"           onclick="setCatFilter('ツマミ')">ツマミ</div>
+      <div class="hdr-chip"     id="c-ノーツ"           onclick="setCatFilter('ノーツ')">ノーツ</div>
+      <div class="hdr-chip"     id="c-トリッキー"       onclick="setCatFilter('トリッキー')">トリッキー</div>
+      <div class="hdr-chip"     id="c-ワンハンド"       onclick="setCatFilter('ワンハンド')">ワンハンド</div>
+      <div class="hdr-chip"     id="c-ハンドトリップ"   onclick="setCatFilter('ハンドトリップ')">ハンドトリップ</div>
+      <div class="hdr-chip"     id="c-ピーク"           onclick="setCatFilter('ピーク')">ピーク</div>
+    </div>
+  </div>
+
+  <div class="search-row">
+    <div class="search-wrap">
+      <span class="search-icon">🔍</span>
+      <input class="search-input" id="searchInput" type="text" placeholder="曲名を検索..." oninput="onSearchInput()">
+      <button class="search-clear" id="searchClear" onclick="clearSearch()">✕</button>
+    </div>
+    <button class="filter-btn" id="filterBtn" onclick="openFilterModal()">
+      <span>絞込</span>
+      <div class="filter-indicator" id="filterIndicator"></div>
+    </button>
+  </div>
+</div>
+
+<div class="active-filters" id="activePills"></div>
+<div class="list" id="listContainer">
+  <div class="loading">
+    <div class="loading-spinner"></div>
+    <div class="loading-text">楽曲データを読み込み中...</div>
+  </div>
+</div>
+
+<!-- DETAIL OVERLAY -->
+<div class="overlay" id="detailOverlay" onclick="handleOverlayClick(event,'detail')">
+  <div class="detail-modal" id="detailModal">
+    <div class="modal-handle"></div>
+    <div class="modal-header-section">
+      <div class="modal-jacket" id="modalJacket"></div>
+      <div class="modal-header-right">
+        <div class="modal-song-title" id="modalTitle"></div>
+        <div class="modal-song-meta" id="modalMeta"></div>
+      </div>
+    </div>
+    <div class="modal-body">
+      <div class="field-block">
+        <div class="field-label">危険度</div>
+        <div class="toggle-row">
+          <div class="toggle-btn" id="d-none"    onclick="setDanger('none')">問題なし</div>
+          <div class="toggle-btn" id="d-caution" onclick="setDanger('caution')">要注意</div>
+          <div class="toggle-btn" id="d-danger"  onclick="setDanger('danger')">危険</div>
+        </div>
+      </div>
+      <div class="field-block">
+        <div class="field-label">オプション</div>
+        <div class="toggle-row">
+          <div class="toggle-btn" id="m-no"  onclick="setMirror('no')">正規</div>
+          <div class="toggle-btn" id="m-yes" onclick="setMirror('yes')">ミラー</div>
+        </div>
+      </div>
+      <div class="field-block">
+        <div class="field-label">判定</div>
+        <div class="toggle-row">
+          <div class="toggle-btn" id="j-late"   onclick="setJudge('late')">遅寄り</div>
+          <div class="toggle-btn" id="j-normal" onclick="setJudge('normal')">普通</div>
+          <div class="toggle-btn" id="j-early"  onclick="setJudge('early')">早寄り</div>
+        </div>
+      </div>
+      <div class="field-block">
+        <div class="field-label">メモ</div>
+        <textarea class="memo-area" id="memoArea" oninput="onMemoInput()"></textarea>
+      </div>
+      <button class="save-btn" onclick="closeDetail()">閉じる</button>
+    </div>
+  </div>
+</div>
+
+<!-- FILTER OVERLAY -->
+<div class="overlay" id="filterOverlay" onclick="handleOverlayClick(event,'filter')">
+  <div class="filter-modal" id="filterModal">
+    <div class="filter-modal-header">
+      <div class="filter-modal-title">絞り込み</div>
+      <button class="reset-btn" onclick="resetFilters()">リセット</button>
+    </div>
+    <div class="filter-modal-body">
+      <div class="field-block">
+        <div class="field-label">レベル（選択なし＝全て）</div>
+        <div class="level-grid" id="levelGrid"></div>
+      </div>
+      <div class="field-block">
+        <div class="field-label">危険度（選択なし＝全て）</div>
+        <div class="danger-grid">
+          <div class="danger-chip" id="fc-none"    onclick="toggleDangerFilter('none')">🔵 問題なし</div>
+          <div class="danger-chip" id="fc-caution" onclick="toggleDangerFilter('caution')">🟡 要注意</div>
+          <div class="danger-chip" id="fc-danger"  onclick="toggleDangerFilter('danger')">🔴 危険</div>
+        </div>
+      </div>
+      <div class="field-block">
+        <div class="field-label">コメント</div>
+        <div class="status-toggle">
+          <div class="status-opt sel" id="fm-all"  onclick="setMemoFilter('all')">全て</div>
+          <div class="status-opt"     id="fm-has"  onclick="setMemoFilter('has')">あり</div>
+          <div class="status-opt"     id="fm-none" onclick="setMemoFilter('none')">なし</div>
+        </div>
+      </div>
+      <button class="apply-btn" onclick="closeFilterModal()">適用</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const TYPE_LABEL = {
+  novice:'NOV', advanced:'ADV', exhaust:'EXH',
+  maximum:'MXM', heavenly:'HVN', gravity:'GRV',
+  infinite:'INF', vivid:'VVD', exceed:'XCD', nabla:'NBL'
+};
+
+const LS_KEY = 'futaba_memo_v1';
+
+let songs = [], memoData = {}, currentKey = null, memoTimer = null;
+
+let fGrade = 'all';
+let fCat   = 'all';
+let fLevels = new Set();
+let fDanger = new Set();
+let fMemo   = 'all';
+
+/* ── LOCAL STORAGE ── */
+function getMemo(key) {
+  return memoData[key] || { danger:'', mirror:'', judge:'', memo:'' };
+}
+function saveMemo(key, data) {
+  memoData[key] = data;
+  localStorage.setItem(LS_KEY, JSON.stringify(memoData));
+}
+
+/* ── DATA LOAD ── */
+async function loadSongs() {
+  try {
+    const res = await fetch('./songs_all.json');
+    const data = await res.json();
+    data.forEach(s => {
+      s.key = s.title + '_' + s.type;
+      s.typeLabel = TYPE_LABEL[s.type] || s.type.toUpperCase();
+    });
+    songs = data;
+    memoData = JSON.parse(localStorage.getItem(LS_KEY) || '{}');
+    buildLevelGrid();
+    applyFilters();
+  } catch(e) {
+    document.getElementById('listContainer').innerHTML =
+      '<div class="empty">データの読み込みに失敗しました。<br>ページを再読み込みしてください。</div>';
+  }
+}
+
+function typeToKey(type) {
+  const map = { exhaust:'exh', maximum:'mxm', infinite:'inf', gravity:'grv',
+                heavenly:'hvn', vivid:'vvd', exceed:'xcd', nabla:'nbl',
+                novice:'nov', advanced:'adv' };
+  return map[type] || 'mxm';
+}
+
+function esc(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+/* ── GRADE TOGGLE ── */
+function setGradeFilter(val) {
+  fGrade = val;
+  ['all','17','18'].forEach(v => {
+    document.getElementById(`g-${v}`).className = 'hdr-chip' + (fGrade === v ? ' sel' : '');
+  });
+  applyFilters();
+}
+
+/* ── CATEGORY TOGGLE ── */
+function setCatFilter(val) {
+  fCat = val;
+  ['all','ツマミ','ノーツ','トリッキー','ワンハンド','ハンドトリップ','ピーク'].forEach(v => {
+    const el = document.getElementById(`c-${v}`);
+    if (el) el.className = 'hdr-chip' + (fCat === v ? ' sel' : '');
+  });
+  applyFilters();
+}
+
+/* ── SEARCH ── */
+function onSearchInput() {
+  const val = document.getElementById('searchInput').value;
+  document.getElementById('searchClear').className = 'search-clear' + (val ? ' show' : '');
+  applyFilters();
+}
+function clearSearch() {
+  document.getElementById('searchInput').value = '';
+  document.getElementById('searchClear').className = 'search-clear';
+  applyFilters();
+}
+
+/* ── LEVEL GRID ── */
+function buildLevelGrid() {
+  const actualLevels = [...new Set(songs.map(s => s.level))].sort((a,b)=>a-b);
+  const grid = document.getElementById('levelGrid');
+  grid.innerHTML = '';
+  actualLevels.forEach(lv => {
+    const chip = document.createElement('div');
+    chip.className = 'level-chip' + (fLevels.has(lv) ? ' sel' : '');
+    chip.textContent = lv.toFixed(1);
+    chip.onclick = () => toggleLevelFilter(lv);
+    chip.id = `lv-${lv.toFixed(1).replace('.','_')}`;
+    grid.appendChild(chip);
+  });
+}
+
+/* ── MAIN RENDER ── */
+function applyFilters() {
+  const q = document.getElementById('searchInput').value.toLowerCase();
+
+  const filtered = songs.filter(s => {
+    if (q && !s.title.toLowerCase().includes(q)) return false;
+    if (fGrade === '17' && s.level > 17.5) return false;
+    if (fGrade === '18' && s.level < 18.0) return false;
+    if (fCat !== 'all' && s.category !== fCat) return false;
+    if (fLevels.size > 0 && !fLevels.has(s.level)) return false;
+    const m = getMemo(s.key);
+    if (fDanger.size > 0 && !fDanger.has(m.danger || '')) return false;
+    if (fMemo === 'has' && !m.memo) return false;
+    if (fMemo === 'none' && m.memo) return false;
+    return true;
+  });
+
+  document.getElementById('headerCount').textContent = `${filtered.length} / ${songs.length}曲`;
+  updatePills();
+  updateFilterIndicator();
+
+  const container = document.getElementById('listContainer');
+  if (filtered.length === 0) {
+    container.innerHTML = '<div class="empty">該当する曲がありません</div>';
+    return;
+  }
+
+  container.innerHTML = `<div class="result-info">${filtered.length}曲表示中</div>`;
+
+  filtered.forEach(s => {
+    const m = getMemo(s.key);
+    const dangerClass = m.danger ? `danger-${m.danger}` : '';
+    const tk = typeToKey(s.type);
+    const memoPreview = m.memo ? esc(m.memo.slice(0,19)) + (m.memo.length > 19 ? '...' : '') : '';
+
+    const dangerBadge = m.danger === 'caution' ? `<span class="card-mini-badge danger-caution">要注意</span>`
+                      : m.danger === 'danger'  ? `<span class="card-mini-badge danger-danger">危険</span>`
+                      : m.danger === 'none'    ? `<span class="card-mini-badge danger-none">問題なし</span>`
+                      : '';
+    const mirrorBadge = m.mirror === 'yes' ? `<span class="card-mini-badge mirror">ミラー</span>`
+                      : m.mirror === 'no'  ? `<span class="card-mini-badge mirror-no">正規</span>`
+                      : '';
+    const judgeBadge  = m.judge === 'late'   ? `<span class="card-mini-badge late">遅寄り</span>`
+                      : m.judge === 'early'  ? `<span class="card-mini-badge early">早寄り</span>`
+                      : m.judge === 'normal' ? `<span class="card-mini-badge normal">普通</span>`
+                      : '';
+
+    const card = document.createElement('div');
+    card.className = `song-card ${dangerClass}`;
+    card.innerHTML = `
+      <div class="card-danger-bar"></div>
+      <div class="card-inner">
+        <div class="jacket jacket-${tk}">
+          ${s.jacket ? `<img src="${s.jacket}" alt="" loading="lazy" onerror="this.style.display='none'">` : ''}
+        </div>
+        <div class="card-body">
+          <div class="card-title">${esc(s.title)}</div>
+          <div class="card-meta">
+            <span class="badge badge-${tk}">${s.typeLabel}</span>
+            <span class="badge">${s.level.toFixed(1)}</span>
+            <span class="badge badge-cat">${esc(s.category)}</span>
+            <span class="badge">BPM ${esc(s.bpm)}</span>
+          </div>
+          ${memoPreview ? `<div class="card-memo">${memoPreview}</div>` : ''}
+        </div>
+        <div class="card-right-badges">
+          ${dangerBadge}${mirrorBadge}${judgeBadge}
+        </div>
+      </div>`;
+    card.onclick = () => openDetail(s.key);
+    container.appendChild(card);
+  });
+}
+
+/* ── DETAIL MODAL ── */
+function openDetail(key) {
+  currentKey = key;
+  const s = songs.find(x => x.key === key);
+  const m = getMemo(key);
+  const tk = typeToKey(s.type);
+
+  document.getElementById('modalTitle').textContent = s.title;
+  const jacket = document.getElementById('modalJacket');
+  jacket.className = `modal-jacket jacket-${tk}`;
+  jacket.innerHTML = s.jacket ? `<img src="${s.jacket}" alt="" onerror="this.style.display='none'">` : '';
+
+  document.getElementById('modalMeta').innerHTML = `
+    <span class="badge badge-${tk}">${s.typeLabel}</span>
+    <span class="badge">${s.level.toFixed(1)}</span>
+    <span class="badge badge-cat">${esc(s.category)}</span>
+    <span class="badge">BPM ${esc(s.bpm)}</span>
+    <button class="chart-inline-btn" onclick="openChart()">譜面を確認 ↗</button>`;
+
+  document.getElementById('memoArea').value = m.memo || '';
+  updateDangerBtns(m.danger || '');
+  updateMirrorBtns(m.mirror || '');
+  updateJudgeBtns(m.judge || '');
+
+  document.getElementById('detailOverlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeDetail() {
+  document.getElementById('detailOverlay').classList.remove('open');
+  document.body.style.overflow = '';
+  currentKey = null;
+  applyFilters();
+}
+
+function openChart() {
+  const s = songs.find(x => x.key === currentKey);
+  if (s && s.chartUrl) window.open(s.chartUrl, '_blank');
+}
+
+function setDanger(val) {
+  if (!currentKey) return;
+  const m = getMemo(currentKey);
+  m.danger = m.danger === val ? '' : val;
+  saveMemo(currentKey, m);
+  updateDangerBtns(m.danger);
+}
+function updateDangerBtns(val) {
+  document.getElementById('d-none').className    = 'toggle-btn' + (val === 'none'    ? ' sel-blue'   : '');
+  document.getElementById('d-caution').className = 'toggle-btn' + (val === 'caution' ? ' sel-yellow' : '');
+  document.getElementById('d-danger').className  = 'toggle-btn' + (val === 'danger'  ? ' sel-red'    : '');
+}
+
+function setMirror(val) {
+  if (!currentKey) return;
+  const m = getMemo(currentKey);
+  m.mirror = m.mirror === val ? '' : val;
+  saveMemo(currentKey, m);
+  updateMirrorBtns(m.mirror);
+}
+function updateMirrorBtns(val) {
+  document.getElementById('m-no').className  = 'toggle-btn' + (val === 'no'  ? ' sel-gray'   : '');
+  document.getElementById('m-yes').className = 'toggle-btn' + (val === 'yes' ? ' sel-accent'  : '');
+}
+
+function setJudge(val) {
+  if (!currentKey) return;
+  const m = getMemo(currentKey);
+  m.judge = m.judge === val ? '' : val;
+  saveMemo(currentKey, m);
+  updateJudgeBtns(m.judge);
+}
+function updateJudgeBtns(val) {
+  document.getElementById('j-late').className   = 'toggle-btn' + (val === 'late'   ? ' sel-blue' : '');
+  document.getElementById('j-normal').className = 'toggle-btn' + (val === 'normal' ? ' sel-gray' : '');
+  document.getElementById('j-early').className  = 'toggle-btn' + (val === 'early'  ? ' sel-red'  : '');
+}
+
+function onMemoInput() {
+  clearTimeout(memoTimer);
+  memoTimer = setTimeout(() => {
+    if (!currentKey) return;
+    const m = getMemo(currentKey);
+    m.memo = document.getElementById('memoArea').value;
+    saveMemo(currentKey, m);
+  }, 600);
+}
+
+/* ── FILTER MODAL ── */
+function openFilterModal() {
+  buildLevelGrid();
+  updateDangerFilterBtns();
+  updateMemoFilterBtns();
+  document.getElementById('filterOverlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeFilterModal() {
+  document.getElementById('filterOverlay').classList.remove('open');
+  document.body.style.overflow = '';
+  applyFilters();
+}
+
+function toggleLevelFilter(lv) {
+  if (fLevels.has(lv)) fLevels.delete(lv); else fLevels.add(lv);
+  const el = document.getElementById(`lv-${lv.toFixed(1).replace('.','_')}`);
+  if (el) el.className = 'level-chip' + (fLevels.has(lv) ? ' sel' : '');
+  applyFilters();
+}
+
+function toggleDangerFilter(val) {
+  if (fDanger.has(val)) fDanger.delete(val); else fDanger.add(val);
+  updateDangerFilterBtns();
+  applyFilters();
+}
+function updateDangerFilterBtns() {
+  document.getElementById('fc-none').className    = 'danger-chip' + (fDanger.has('none')    ? ' sel-blue'   : '');
+  document.getElementById('fc-caution').className = 'danger-chip' + (fDanger.has('caution') ? ' sel-yellow' : '');
+  document.getElementById('fc-danger').className  = 'danger-chip' + (fDanger.has('danger')  ? ' sel-red'    : '');
+}
+
+function setMemoFilter(val) { fMemo = val; updateMemoFilterBtns(); applyFilters(); }
+function updateMemoFilterBtns() {
+  ['all','has','none'].forEach(v => {
+    document.getElementById(`fm-${v}`).className = 'status-opt' + (fMemo === v ? ' sel' : '');
+  });
+}
+
+function resetFilters() {
+  fLevels.clear(); fDanger.clear(); fMemo = 'all';
+  buildLevelGrid(); updateDangerFilterBtns(); updateMemoFilterBtns();
+  applyFilters();
+}
+
+function updateFilterIndicator() {
+  const active = fLevels.size > 0 || fDanger.size > 0 || fMemo !== 'all';
+  document.getElementById('filterIndicator').className = 'filter-indicator' + (active ? ' show' : '');
+  document.getElementById('filterBtn').className = 'filter-btn' + (active ? ' active' : '');
+}
+
+function updatePills() {
+  const container = document.getElementById('activePills');
+  container.innerHTML = '';
+  fLevels.forEach(lv => {
+    const pill = document.createElement('div');
+    pill.className = 'filter-pill';
+    pill.innerHTML = `${lv.toFixed(1)} <span onclick="toggleLevelFilter(${lv})">✕</span>`;
+    container.appendChild(pill);
+  });
+  const dangerNames = { none:'問題なし', caution:'要注意', danger:'危険' };
+  fDanger.forEach(d => {
+    const pill = document.createElement('div');
+    pill.className = 'filter-pill';
+    pill.innerHTML = `${dangerNames[d]} <span onclick="toggleDangerFilter('${d}')">✕</span>`;
+    container.appendChild(pill);
+  });
+  if (fMemo !== 'all') {
+    const pill = document.createElement('div');
+    pill.className = 'filter-pill';
+    pill.innerHTML = `メモ${fMemo === 'has' ? 'あり' : 'なし'} <span onclick="setMemoFilter('all')">✕</span>`;
+    container.appendChild(pill);
+  }
+}
+
+function handleOverlayClick(e, type) {
+  const modal = document.getElementById(type === 'detail' ? 'detailModal' : 'filterModal');
+  if (!modal.contains(e.target)) {
+    type === 'detail' ? closeDetail() : closeFilterModal();
+  }
+}
+
+loadSongs();
+</script>
+</body>
+</html>
