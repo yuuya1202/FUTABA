@@ -9,7 +9,7 @@
 <title>FUTABA課題曲</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap');
-
+ 
   :root {
     --bg: #f0f4ff;
     --bg2: #ffffff;
@@ -42,9 +42,9 @@
     --xcd: #1d4ed8;
     --nbl: #16a34a;
   }
-
+ 
   * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
-
+ 
   body {
     background: var(--bg);
     color: var(--text);
@@ -53,7 +53,7 @@
     max-width: 480px;
     margin: 0 auto;
   }
-
+ 
   /* ── HEADER ── */
   .header {
     position: sticky; top: 0; z-index: 100;
@@ -63,26 +63,26 @@
     border-bottom: 1px solid var(--border);
     box-shadow: 0 1px 8px rgba(91,79,232,0.06);
   }
-
+ 
   .header-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
-
+ 
   .header-title {
     font-family: 'Rajdhani', sans-serif;
     font-size: 19px; font-weight: 700; letter-spacing: 1.5px;
     color: var(--accent);
   }
-
+ 
   .header-count { font-size: 11px; color: var(--text3); }
-
+ 
   /* ── SEARCH ROW ── */
-  .search-row { margin-bottom: 8px; }
-  .search-wrap { position: relative; }
-
+  .search-row { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; }
+  .search-wrap { flex: 1; position: relative; }
+ 
   .search-icon {
     position: absolute; left: 10px; top: 50%; transform: translateY(-50%);
     color: var(--text3); font-size: 14px; pointer-events: none;
   }
-
+ 
   .search-input {
     width: 100%; background: var(--bg2);
     border: 1.5px solid var(--border); border-radius: var(--radius-sm);
@@ -92,7 +92,7 @@
   }
   .search-input:focus { border-color: var(--accent2); }
   .search-input::placeholder { color: var(--text3); }
-
+ 
   .search-clear {
     position: absolute; right: 10px; top: 50%; transform: translateY(-50%);
     background: var(--text3); color: white; border: none; border-radius: 50%;
@@ -101,45 +101,32 @@
     padding: 0; font-family: sans-serif;
   }
   .search-clear.show { display: flex; }
-
-  /* ── HEADER TOGGLES ── */
-  .header-toggles { display: flex; flex-direction: column; gap: 5px; }
-
-  .toggle-group { display: flex; gap: 4px; align-items: center; }
-
-  .toggle-group-label {
-    font-family: 'Rajdhani', sans-serif; font-size: 10px; font-weight: 700;
+ 
+  /* ── HEADER DROPDOWNS ── */
+  .header-dropdowns { display: flex; gap: 8px; }
+ 
+  .hdr-select-wrap { flex: 1; position: relative; }
+  .hdr-select-label {
+    font-family: 'Rajdhani', sans-serif; font-size: 9px; font-weight: 700;
     color: var(--text3); letter-spacing: 0.8px; text-transform: uppercase;
-    width: 26px; flex-shrink: 0;
+    margin-bottom: 3px;
   }
-
-  .toggle-group-chips { display: flex; gap: 4px; flex: 1; flex-wrap: wrap; }
-
-  .hdr-chip {
-    background: var(--bg2); border: 1.5px solid var(--border);
-    border-radius: var(--radius-sm); padding: 5px 8px; text-align: center;
-    font-size: 11px; color: var(--text2); cursor: pointer;
-    transition: all 0.15s; font-family: 'Noto Sans JP', sans-serif;
-    white-space: nowrap;
-    box-shadow: var(--shadow);
+  .hdr-select {
+    width: 100%; background: var(--bg2); border: 1.5px solid var(--border);
+    border-radius: var(--radius-sm); padding: 7px 28px 7px 10px;
+    font-size: 12px; color: var(--text); font-family: 'Noto Sans JP', sans-serif;
+    appearance: none; -webkit-appearance: none; outline: none;
+    box-shadow: var(--shadow); cursor: pointer; transition: border-color 0.2s;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%239a9ab0' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat; background-position: right 8px center;
   }
-  .hdr-chip:active { transform: scale(0.96); }
-  .hdr-chip.sel {
-    background: var(--accent-bg); border-color: var(--accent);
-    color: var(--accent); font-weight: 700;
-  }
-
-  /* ── PILLS ── */
-  .active-filters { display: flex; flex-wrap: wrap; gap: 5px; padding: 8px 14px 0; }
-  .filter-pill {
-    background: var(--accent-bg); border: 1px solid rgba(91,79,232,0.2);
-    border-radius: 20px; padding: 3px 10px; font-size: 11px; color: var(--accent);
-    display: flex; align-items: center; gap: 5px; cursor: pointer;
-  }
-
+  .hdr-select:focus { border-color: var(--accent2); }
+  .hdr-select.active { border-color: var(--accent); color: var(--accent); font-weight: 700; background-color: var(--accent-bg); }
+ 
   /* ── LIST ── */
   .list { padding: 8px 12px 100px; }
-
+  .result-info { font-size: 11px; color: var(--text3); padding: 8px 2px 6px; }
+ 
   /* ── SONG CARD ── */
   .song-card {
     background: var(--bg2); border: 1.5px solid var(--border);
@@ -148,16 +135,15 @@
     position: relative; box-shadow: var(--shadow);
   }
   .song-card:active { transform: scale(0.98); box-shadow: none; }
-
-  /* 左端は青固定 */
+ 
+  /* 左ライン：青固定 */
   .card-danger-bar {
     position: absolute; left: 0; top: 0; bottom: 0; width: 4px;
-    border-radius: 14px 0 0 14px;
-    background: var(--blue);
+    border-radius: 14px 0 0 14px; background: var(--accent);
   }
-
+ 
   .card-inner { display: flex; align-items: center; gap: 8px; padding: 10px 12px 10px 14px; }
-
+ 
   .jacket { width: 52px; height: 52px; border-radius: 8px; background: var(--bg4); flex-shrink: 0; overflow: hidden; border: 2px solid var(--bg4); box-sizing: border-box; }
   .jacket img { width: 100%; height: 100%; object-fit: cover; border-radius: 6px; }
   .jacket-exh { border-color: var(--exh); }
@@ -169,11 +155,11 @@
   .jacket-xcd { border-color: var(--xcd); }
   .jacket-nbl { border-color: var(--nbl); }
   .jacket-nov, .jacket-adv { border-color: var(--border); }
-
+ 
   .card-body { flex: 1; min-width: 0; }
   .card-title { font-size: 13px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 4px; color: var(--text); }
   .card-meta { display: flex; align-items: center; gap: 5px; flex-wrap: wrap; }
-
+ 
   .badge { font-family: 'Rajdhani', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; padding: 2px 7px; border-radius: 5px; background: var(--bg4); color: var(--text2); }
   .badge-exh { color: #fff; background: var(--exh); }
   .badge-mxm { color: #fff; background: var(--mxm); }
@@ -185,9 +171,9 @@
   .badge-nbl { color: #fff; background: var(--nbl); }
   .badge-nov { color: var(--text2); background: var(--bg4); }
   .badge-adv { color: #fff; background: #16a34a; }
-
+ 
   .card-memo { font-size: 11px; color: var(--text3); margin-top: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-
+ 
   .card-right-badges {
     display: flex; flex-direction: column; align-items: flex-end; gap: 3px;
     flex-shrink: 0;
@@ -205,7 +191,7 @@
   .card-mini-badge.danger-none    { background: var(--blue-bg);   color: var(--blue); }
   .card-mini-badge.danger-caution { background: var(--yellow-bg); color: var(--yellow); }
   .card-mini-badge.danger-danger  { background: var(--red-bg);    color: var(--red); }
-
+ 
   /* ── OVERLAYS ── */
   .overlay {
     position: fixed; inset: 0; background: rgba(30,30,60,0.4); z-index: 200;
@@ -213,9 +199,9 @@
     opacity: 0; pointer-events: none; transition: opacity 0.25s;
   }
   .overlay.open { opacity: 1; pointer-events: all; }
-
+ 
   #detailOverlay { justify-content: center; align-items: center; padding: 16px; }
-
+ 
   .detail-modal {
     background: var(--bg2); border-radius: 20px;
     padding: 0 0 20px; max-height: 92vh; overflow-y: auto;
@@ -225,9 +211,9 @@
     box-shadow: 0 8px 40px rgba(91,79,232,0.18);
   }
   .overlay.open .detail-modal { transform: scale(1) translateY(0); }
-
+ 
   .modal-handle { width: 36px; height: 4px; background: var(--bg4); border-radius: 2px; margin: 12px auto 0; }
-
+ 
   .modal-header-section {
     display: flex; gap: 12px; align-items: flex-start;
     padding: 14px 16px 12px; border-bottom: 1px solid var(--border);
@@ -242,32 +228,32 @@
   .modal-jacket.jacket-vvd { border-color: var(--vvd); }
   .modal-jacket.jacket-xcd { border-color: var(--xcd); }
   .modal-jacket.jacket-nbl { border-color: var(--nbl); }
-
+ 
   .modal-header-right { flex: 1; min-width: 0; }
   .modal-song-title { font-size: 15px; font-weight: 700; margin-bottom: 6px; color: var(--text); line-height: 1.3; }
   .modal-song-meta { display: flex; flex-wrap: wrap; gap: 5px; align-items: center; }
-
+ 
   .chart-inline-btn {
-    display: inline-flex; align-items: center; gap: 4px;
-    background: var(--accent); border: none;
-    border-radius: var(--radius-sm); padding: 5px 12px; font-size: 11px; color: #fff;
+    display: inline-flex; align-items: center;
+    background: var(--green); border: none;
+    border-radius: var(--radius-sm); padding: 8px 18px; font-size: 13px; color: #fff;
     cursor: pointer; transition: all 0.15s;
     font-family: 'Noto Sans JP', sans-serif; font-weight: 700;
-    margin-top: 6px;
+    margin-top: 8px;
   }
   .chart-inline-btn:active { opacity: 0.7; transform: scale(0.97); }
-
+ 
   .modal-body { padding: 14px 16px; }
   .field-block { margin-bottom: 16px; }
-
+ 
   .field-label {
     font-size: 11px; color: var(--text2); letter-spacing: 1px;
     text-transform: uppercase; margin-bottom: 7px;
     font-family: 'Rajdhani', sans-serif; font-weight: 700;
   }
-
+ 
   .toggle-row { display: flex; gap: 6px; }
-
+ 
   .toggle-btn {
     flex: 1; background: var(--bg3); border: 1.5px solid var(--border);
     border-radius: var(--radius-sm); padding: 8px 4px; text-align: center;
@@ -280,7 +266,7 @@
   .toggle-btn.sel-yellow { background: var(--yellow-bg); border-color: var(--yellow); color: var(--yellow); font-weight: 700; }
   .toggle-btn.sel-red    { background: var(--red-bg);    border-color: var(--red);    color: var(--red);    font-weight: 700; }
   .toggle-btn.sel-accent { background: var(--accent-bg); border-color: var(--accent); color: var(--accent); font-weight: 700; }
-
+ 
   .memo-area {
     width: 100%; background: var(--bg2); border: 1.5px solid var(--border);
     border-radius: var(--radius-sm); padding: 10px; color: var(--text);
@@ -289,7 +275,7 @@
     box-shadow: inset 0 1px 3px rgba(0,0,0,0.04);
   }
   .memo-area:focus { border-color: var(--accent2); }
-
+ 
   .save-btn {
     width: 33%; background: var(--accent); border: none;
     border-radius: var(--radius-sm); padding: 11px; color: white;
@@ -298,7 +284,7 @@
     display: block; margin: 0 auto;
   }
   .save-btn:active { transform: scale(0.98); opacity: 0.9; }
-
+ 
   /* ── MISC ── */
   .loading { text-align: center; padding: 60px 20px; color: var(--text3); }
   .loading-spinner { width: 36px; height: 36px; border: 2px solid var(--bg4); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.8s linear infinite; margin: 0 auto 12px; }
@@ -308,13 +294,13 @@
 </style>
 </head>
 <body>
-
+ 
 <div class="header">
   <div class="header-top">
     <div class="header-title">FUTABA課題曲</div>
     <div class="header-count" id="headerCount">読み込み中...</div>
   </div>
-
+ 
   <!-- 検索ボックス（一番上） -->
   <div class="search-row">
     <div class="search-wrap">
@@ -323,42 +309,40 @@
       <button class="search-clear" id="searchClear" onclick="clearSearch()">✕</button>
     </div>
   </div>
-
-  <!-- トグル（検索の下） -->
-  <div class="header-toggles">
-    <!-- トグル①：グレード -->
-    <div class="toggle-group">
-      <div class="toggle-group-label">LV</div>
-      <div class="toggle-group-chips">
-        <div class="hdr-chip sel" id="g-all" onclick="setGradeFilter('all')">すべて</div>
-        <div class="hdr-chip"    id="g-17"  onclick="setGradeFilter('17')">17</div>
-        <div class="hdr-chip"    id="g-18"  onclick="setGradeFilter('18')">18</div>
-        <div class="hdr-chip"    id="g-19"  onclick="setGradeFilter('19')">19</div>
-      </div>
+ 
+  <!-- プルダウン群 -->
+  <div class="header-dropdowns">
+    <div class="hdr-select-wrap">
+      <div class="hdr-select-label">レベル</div>
+      <select class="hdr-select" id="gradeSelect" onchange="setGradeFilter(this.value)">
+        <option value="all">すべて</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+      </select>
     </div>
-    <!-- トグル②：カテゴリ（2行に折り返し） -->
-    <div class="toggle-group">
-      <div class="toggle-group-label">CAT</div>
-      <div class="toggle-group-chips">
-        <div class="hdr-chip sel" id="c-all"           onclick="setCatFilter('all')">すべて</div>
-        <div class="hdr-chip"     id="c-ツマミ"         onclick="setCatFilter('ツマミ')">ツマミ</div>
-        <div class="hdr-chip"     id="c-ノーツ"         onclick="setCatFilter('ノーツ')">ノーツ</div>
-        <div class="hdr-chip"     id="c-トリッキー"     onclick="setCatFilter('トリッキー')">トリッキー</div>
-        <div class="hdr-chip"     id="c-ワンハンド"     onclick="setCatFilter('ワンハンド')">ワンハンド</div>
-        <div class="hdr-chip"     id="c-ハンドトリップ" onclick="setCatFilter('ハンドトリップ')">ハンドトリップ</div>
-        <div class="hdr-chip"     id="c-ピーク"         onclick="setCatFilter('ピーク')">ピーク</div>
-      </div>
+    <div class="hdr-select-wrap">
+      <div class="hdr-select-label">カテゴリー</div>
+      <select class="hdr-select" id="catSelect" onchange="setCatFilter(this.value)">
+        <option value="all">すべて</option>
+        <option value="ツマミ">ツマミ</option>
+        <option value="ノーツ">ノーツ</option>
+        <option value="トリッキー">トリッキー</option>
+        <option value="ワンハンド">ワンハンド</option>
+        <option value="ハンドトリップ">ハンドトリップ</option>
+        <option value="ピーク">ピーク</option>
+      </select>
     </div>
   </div>
 </div>
-
+ 
 <div class="list" id="listContainer">
   <div class="loading">
     <div class="loading-spinner"></div>
     <div class="loading-text">楽曲データを読み込み中...</div>
   </div>
 </div>
-
+ 
 <!-- DETAIL OVERLAY -->
 <div class="overlay" id="detailOverlay" onclick="handleOverlayClick(event)">
   <div class="detail-modal" id="detailModal">
@@ -402,21 +386,21 @@
     </div>
   </div>
 </div>
-
+ 
 <script>
 const TYPE_LABEL = {
   novice:'NOV', advanced:'ADV', exhaust:'EXH',
   maximum:'MXM', heavenly:'HVN', gravity:'GRV',
   infinite:'INF', vivid:'VVD', exceed:'XCD', nabla:'NBL'
 };
-
+ 
 const LS_KEY = 'futaba_memo_v1';
-
+ 
 let songs = [], memoData = {}, currentKey = null, memoTimer = null;
-
+ 
 let fGrade = 'all';
 let fCat   = 'all';
-
+ 
 function getMemo(key) {
   return memoData[key] || { danger:'', mirror:'', judge:'', memo:'' };
 }
@@ -424,7 +408,7 @@ function saveMemo(key, data) {
   memoData[key] = data;
   localStorage.setItem(LS_KEY, JSON.stringify(memoData));
 }
-
+ 
 async function loadSongs() {
   try {
     const res = await fetch('./songs_all.json');
@@ -441,37 +425,34 @@ async function loadSongs() {
       '<div class="empty">データの読み込みに失敗しました。<br>ページを再読み込みしてください。</div>';
   }
 }
-
+ 
 function typeToKey(type) {
   const map = { exhaust:'exh', maximum:'mxm', infinite:'inf', gravity:'grv',
                 heavenly:'hvn', vivid:'vvd', exceed:'xcd', nabla:'nbl',
                 novice:'nov', advanced:'adv' };
   return map[type] || 'mxm';
 }
-
+ 
 function esc(s) {
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 }
-
-/* ── GRADE TOGGLE ── */
+ 
+/* ── GRADE DROPDOWN ── */
 function setGradeFilter(val) {
   fGrade = val;
-  ['all','17','18','19'].forEach(v => {
-    document.getElementById(`g-${v}`).className = 'hdr-chip' + (fGrade === v ? ' sel' : '');
-  });
+  const sel = document.getElementById('gradeSelect');
+  sel.className = 'hdr-select' + (val !== 'all' ? ' active' : '');
   applyFilters();
 }
-
-/* ── CATEGORY TOGGLE ── */
+ 
+/* ── CATEGORY DROPDOWN ── */
 function setCatFilter(val) {
   fCat = val;
-  ['all','ツマミ','ノーツ','トリッキー','ワンハンド','ハンドトリップ','ピーク'].forEach(v => {
-    const el = document.getElementById(`c-${v}`);
-    if (el) el.className = 'hdr-chip' + (fCat === v ? ' sel' : '');
-  });
+  const sel = document.getElementById('catSelect');
+  sel.className = 'hdr-select' + (val !== 'all' ? ' active' : '');
   applyFilters();
 }
-
+ 
 /* ── SEARCH ── */
 function onSearchInput() {
   const val = document.getElementById('searchInput').value;
@@ -483,35 +464,35 @@ function clearSearch() {
   document.getElementById('searchClear').className = 'search-clear';
   applyFilters();
 }
-
+ 
 /* ── MAIN RENDER ── */
 function applyFilters() {
   const q = document.getElementById('searchInput').value.toLowerCase();
-
+ 
   const filtered = songs.filter(s => {
     if (q && !s.title.toLowerCase().includes(q)) return false;
-    if (fGrade === '17' && s.level > 17.5)  return false;
+    if (fGrade === '17' && s.level > 17.5) return false;
     if (fGrade === '18' && (s.level < 18.0 || s.level >= 19.0)) return false;
-    if (fGrade === '19' && s.level < 19.0)  return false;
+    if (fGrade === '19' && s.level < 19.0) return false;
     if (fCat !== 'all' && s.category !== fCat) return false;
     return true;
   });
-
+ 
   document.getElementById('headerCount').textContent = `${filtered.length} / ${songs.length}曲`;
-
+ 
   const container = document.getElementById('listContainer');
   if (filtered.length === 0) {
     container.innerHTML = '<div class="empty">該当する曲がありません</div>';
     return;
   }
-
+ 
   container.innerHTML = '';
-
+ 
   filtered.forEach(s => {
     const m = getMemo(s.key);
     const tk = typeToKey(s.type);
     const memoPreview = m.memo ? esc(m.memo.slice(0,19)) + (m.memo.length > 19 ? '...' : '') : '';
-
+ 
     const dangerBadge = m.danger === 'caution' ? `<span class="card-mini-badge danger-caution">要注意</span>`
                       : m.danger === 'danger'  ? `<span class="card-mini-badge danger-danger">危険</span>`
                       : m.danger === 'none'    ? `<span class="card-mini-badge danger-none">問題なし</span>`
@@ -523,7 +504,7 @@ function applyFilters() {
                       : m.judge === 'early'  ? `<span class="card-mini-badge early">早寄り</span>`
                       : m.judge === 'normal' ? `<span class="card-mini-badge normal">普通</span>`
                       : '';
-
+ 
     const card = document.createElement('div');
     card.className = 'song-card';
     card.innerHTML = `
@@ -549,47 +530,46 @@ function applyFilters() {
     container.appendChild(card);
   });
 }
-
+ 
 /* ── DETAIL MODAL ── */
 function openDetail(key) {
   currentKey = key;
   const s = songs.find(x => x.key === key);
   const m = getMemo(key);
   const tk = typeToKey(s.type);
-
+ 
   document.getElementById('modalTitle').textContent = s.title;
   const jacket = document.getElementById('modalJacket');
   jacket.className = `modal-jacket jacket-${tk}`;
   jacket.innerHTML = s.jacket ? `<img src="${s.jacket}" alt="" onerror="this.style.display='none'">` : '';
-
+ 
   document.getElementById('modalMeta').innerHTML = `
     <span class="badge badge-${tk}">${s.typeLabel}</span>
     <span class="badge">${s.level.toFixed(1)}</span>
-    <span class="badge badge-cat">${esc(s.category)}</span>
     <span class="badge">BPM ${esc(s.bpm)}</span>
-    <button class="chart-inline-btn" onclick="openChart()">譜面を確認 ↗</button>`;
-
+    <button class="chart-inline-btn" onclick="openChart()">譜面を確認</button>`;
+ 
   document.getElementById('memoArea').value = m.memo || '';
   updateDangerBtns(m.danger || '');
   updateMirrorBtns(m.mirror || '');
   updateJudgeBtns(m.judge || '');
-
+ 
   document.getElementById('detailOverlay').classList.add('open');
   document.body.style.overflow = 'hidden';
 }
-
+ 
 function closeDetail() {
   document.getElementById('detailOverlay').classList.remove('open');
   document.body.style.overflow = '';
   currentKey = null;
   applyFilters();
 }
-
+ 
 function openChart() {
   const s = songs.find(x => x.key === currentKey);
   if (s && s.chartUrl) window.open(s.chartUrl, '_blank');
 }
-
+ 
 function setDanger(val) {
   if (!currentKey) return;
   const m = getMemo(currentKey);
@@ -602,7 +582,7 @@ function updateDangerBtns(val) {
   document.getElementById('d-caution').className = 'toggle-btn' + (val === 'caution' ? ' sel-yellow' : '');
   document.getElementById('d-danger').className  = 'toggle-btn' + (val === 'danger'  ? ' sel-red'    : '');
 }
-
+ 
 function setMirror(val) {
   if (!currentKey) return;
   const m = getMemo(currentKey);
@@ -614,7 +594,7 @@ function updateMirrorBtns(val) {
   document.getElementById('m-no').className  = 'toggle-btn' + (val === 'no'  ? ' sel-gray'   : '');
   document.getElementById('m-yes').className = 'toggle-btn' + (val === 'yes' ? ' sel-accent'  : '');
 }
-
+ 
 function setJudge(val) {
   if (!currentKey) return;
   const m = getMemo(currentKey);
@@ -627,7 +607,7 @@ function updateJudgeBtns(val) {
   document.getElementById('j-normal').className = 'toggle-btn' + (val === 'normal' ? ' sel-gray' : '');
   document.getElementById('j-early').className  = 'toggle-btn' + (val === 'early'  ? ' sel-red'  : '');
 }
-
+ 
 function onMemoInput() {
   clearTimeout(memoTimer);
   memoTimer = setTimeout(() => {
@@ -637,12 +617,12 @@ function onMemoInput() {
     saveMemo(currentKey, m);
   }, 600);
 }
-
+ 
 function handleOverlayClick(e) {
   const modal = document.getElementById('detailModal');
   if (!modal.contains(e.target)) closeDetail();
 }
-
+ 
 loadSongs();
 </script>
 </body>
