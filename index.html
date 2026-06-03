@@ -74,34 +74,9 @@
 
   .header-count { font-size: 11px; color: var(--text3); }
 
-  /* ── HEADER TOGGLES ── */
-  .header-toggles { display: flex; flex-direction: column; gap: 5px; margin-bottom: 8px; }
-
-  .toggle-group { display: flex; gap: 4px; align-items: center; }
-
-  .toggle-group-label {
-    font-family: 'Rajdhani', sans-serif; font-size: 10px; font-weight: 700;
-    color: var(--text3); letter-spacing: 0.8px; text-transform: uppercase;
-    width: 26px; flex-shrink: 0;
-  }
-
-  .hdr-chip {
-    background: var(--bg2); border: 1.5px solid var(--border);
-    border-radius: var(--radius-sm); padding: 5px 6px; text-align: center;
-    font-size: 11px; color: var(--text2); cursor: pointer;
-    transition: all 0.15s; font-family: 'Noto Sans JP', sans-serif;
-    white-space: nowrap; flex: 1;
-    box-shadow: var(--shadow);
-  }
-  .hdr-chip:active { transform: scale(0.96); }
-  .hdr-chip.sel {
-    background: var(--accent-bg); border-color: var(--accent);
-    color: var(--accent); font-weight: 700;
-  }
-
   /* ── SEARCH ROW ── */
-  .search-row { display: flex; gap: 8px; align-items: center; }
-  .search-wrap { flex: 1; position: relative; }
+  .search-row { margin-bottom: 8px; }
+  .search-wrap { position: relative; }
 
   .search-icon {
     position: absolute; left: 10px; top: 50%; transform: translateY(-50%);
@@ -127,18 +102,32 @@
   }
   .search-clear.show { display: flex; }
 
-  .filter-btn {
-    background: var(--bg2); border: 1.5px solid var(--border);
-    border-radius: var(--radius-sm); padding: 8px 12px;
-    color: var(--text2); font-size: 13px; cursor: pointer;
-    display: flex; align-items: center; gap: 5px; white-space: nowrap;
-    box-shadow: var(--shadow); transition: all 0.2s;
-    font-family: 'Noto Sans JP', sans-serif;
-  }
-  .filter-btn.active { border-color: var(--accent); color: var(--accent); background: var(--accent-bg); }
+  /* ── HEADER TOGGLES ── */
+  .header-toggles { display: flex; flex-direction: column; gap: 5px; }
 
-  .filter-indicator { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); display: none; }
-  .filter-indicator.show { display: block; }
+  .toggle-group { display: flex; gap: 4px; align-items: center; }
+
+  .toggle-group-label {
+    font-family: 'Rajdhani', sans-serif; font-size: 10px; font-weight: 700;
+    color: var(--text3); letter-spacing: 0.8px; text-transform: uppercase;
+    width: 26px; flex-shrink: 0;
+  }
+
+  .toggle-group-chips { display: flex; gap: 4px; flex: 1; flex-wrap: wrap; }
+
+  .hdr-chip {
+    background: var(--bg2); border: 1.5px solid var(--border);
+    border-radius: var(--radius-sm); padding: 5px 8px; text-align: center;
+    font-size: 11px; color: var(--text2); cursor: pointer;
+    transition: all 0.15s; font-family: 'Noto Sans JP', sans-serif;
+    white-space: nowrap;
+    box-shadow: var(--shadow);
+  }
+  .hdr-chip:active { transform: scale(0.96); }
+  .hdr-chip.sel {
+    background: var(--accent-bg); border-color: var(--accent);
+    color: var(--accent); font-weight: 700;
+  }
 
   /* ── PILLS ── */
   .active-filters { display: flex; flex-wrap: wrap; gap: 5px; padding: 8px 14px 0; }
@@ -150,7 +139,6 @@
 
   /* ── LIST ── */
   .list { padding: 8px 12px 100px; }
-  .result-info { font-size: 11px; color: var(--text3); padding: 8px 2px 6px; }
 
   /* ── SONG CARD ── */
   .song-card {
@@ -161,11 +149,12 @@
   }
   .song-card:active { transform: scale(0.98); box-shadow: none; }
 
-  .card-danger-bar { position: absolute; left: 0; top: 0; bottom: 0; width: 4px; border-radius: 14px 0 0 14px; }
-  .song-card .card-danger-bar { background: #5b4fe8; }
-  .danger-none  .card-danger-bar { background: var(--blue);   }
-  .danger-caution .card-danger-bar { background: var(--yellow); }
-  .danger-danger  .card-danger-bar { background: var(--red);    }
+  /* 左端は青固定 */
+  .card-danger-bar {
+    position: absolute; left: 0; top: 0; bottom: 0; width: 4px;
+    border-radius: 14px 0 0 14px;
+    background: var(--blue);
+  }
 
   .card-inner { display: flex; align-items: center; gap: 8px; padding: 10px 12px 10px 14px; }
 
@@ -196,7 +185,6 @@
   .badge-nbl { color: #fff; background: var(--nbl); }
   .badge-nov { color: var(--text2); background: var(--bg4); }
   .badge-adv { color: #fff; background: #16a34a; }
-  .badge-cat { font-family: 'Noto Sans JP', sans-serif; font-size: 10px; font-weight: 400; background: var(--bg3); color: var(--text3); }
 
   .card-memo { font-size: 11px; color: var(--text3); margin-top: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
@@ -311,71 +299,6 @@
   }
   .save-btn:active { transform: scale(0.98); opacity: 0.9; }
 
-  /* ── FILTER MODAL ── */
-  #filterOverlay { justify-content: center; align-items: center; padding: 16px; }
-  .filter-modal {
-    background: var(--bg2); border-radius: 20px;
-    padding: 0; width: 100%; max-width: 460px; max-height: 85vh; overflow-y: auto;
-    transform: scale(0.93) translateY(12px);
-    transition: transform 0.3s cubic-bezier(0.32,0.72,0,1);
-    box-shadow: 0 8px 40px rgba(91,79,232,0.18);
-  }
-  .overlay.open .filter-modal { transform: scale(1) translateY(0); }
-
-  .filter-modal-header {
-    display: flex; align-items: center; justify-content: space-between;
-    padding: 16px 16px 12px; border-bottom: 1px solid var(--border);
-  }
-  .filter-modal-title { font-family: 'Rajdhani', sans-serif; font-size: 16px; font-weight: 700; letter-spacing: 1px; color: var(--text); }
-  .reset-btn {
-    background: none; border: 1.5px solid var(--border); border-radius: 6px;
-    padding: 5px 12px; color: var(--text3); font-size: 12px;
-    font-family: 'Noto Sans JP', sans-serif; cursor: pointer; transition: all 0.15s;
-  }
-  .reset-btn:active { color: var(--red); border-color: var(--red); }
-
-  .filter-modal-body { padding: 14px 16px; }
-
-  .level-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; }
-  .level-chip {
-    background: var(--bg3); border: 1.5px solid var(--border); border-radius: 7px;
-    padding: 7px 4px; text-align: center;
-    font-family: 'Rajdhani', sans-serif; font-size: 13px; font-weight: 600;
-    color: var(--text2); cursor: pointer; transition: all 0.15s;
-  }
-  .level-chip.sel { background: var(--accent-bg); border-color: var(--accent); color: var(--accent); font-weight: 700; }
-
-  .danger-grid { display: flex; gap: 6px; }
-  .danger-chip {
-    flex: 1; background: var(--bg3); border: 1.5px solid var(--border);
-    border-radius: 7px; padding: 8px 4px; text-align: center;
-    font-size: 12px; color: var(--text2); cursor: pointer; transition: all 0.15s;
-    font-family: 'Noto Sans JP', sans-serif;
-  }
-  .danger-chip.sel-blue   { background: var(--blue-bg);   border-color: var(--blue);   color: var(--blue);   font-weight: 700; }
-  .danger-chip.sel-yellow { background: var(--yellow-bg); border-color: var(--yellow); color: var(--yellow); font-weight: 700; }
-  .danger-chip.sel-red    { background: var(--red-bg);    border-color: var(--red);    color: var(--red);    font-weight: 700; }
-
-  .status-toggle {
-    display: flex; background: var(--bg3); border-radius: var(--radius-sm);
-    padding: 3px; gap: 3px; border: 1.5px solid var(--border);
-  }
-  .status-opt {
-    flex: 1; text-align: center; padding: 7px 4px; border-radius: 6px;
-    font-size: 12px; color: var(--text2); cursor: pointer; transition: all 0.15s;
-    font-family: 'Noto Sans JP', sans-serif;
-  }
-  .status-opt.sel { background: var(--bg2); color: var(--text); font-weight: 700; box-shadow: 0 1px 4px rgba(91,79,232,0.1); }
-
-  .apply-btn {
-    width: 33%; background: var(--accent); border: none;
-    border-radius: var(--radius-sm); padding: 11px; color: white;
-    font-size: 13px; font-family: 'Noto Sans JP', sans-serif;
-    cursor: pointer; font-weight: 700; letter-spacing: 0.5px;
-    transition: all 0.15s; display: block; margin: 12px auto 4px;
-  }
-  .apply-btn:active { opacity: 0.85; transform: scale(0.98); }
-
   /* ── MISC ── */
   .loading { text-align: center; padding: 60px 20px; color: var(--text3); }
   .loading-spinner { width: 36px; height: 36px; border: 2px solid var(--bg4); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.8s linear infinite; margin: 0 auto 12px; }
@@ -392,41 +315,43 @@
     <div class="header-count" id="headerCount">読み込み中...</div>
   </div>
 
-  <div class="header-toggles">
-    <!-- トグル①：グレード -->
-    <div class="toggle-group">
-      <div class="toggle-group-label">LV</div>
-      <div class="hdr-chip sel" id="g-all"     onclick="setGradeFilter('all')">すべて</div>
-      <div class="hdr-chip"    id="g-17"      onclick="setGradeFilter('17')">17</div>
-      <div class="hdr-chip"    id="g-18"      onclick="setGradeFilter('18')">18</div>
-    </div>
-    <!-- トグル②：カテゴリ -->
-    <div class="toggle-group">
-      <div class="toggle-group-label">CAT</div>
-      <div class="hdr-chip sel" id="c-all"             onclick="setCatFilter('all')">すべて</div>
-      <div class="hdr-chip"     id="c-ツマミ"           onclick="setCatFilter('ツマミ')">ツマミ</div>
-      <div class="hdr-chip"     id="c-ノーツ"           onclick="setCatFilter('ノーツ')">ノーツ</div>
-      <div class="hdr-chip"     id="c-トリッキー"       onclick="setCatFilter('トリッキー')">トリッキー</div>
-      <div class="hdr-chip"     id="c-ワンハンド"       onclick="setCatFilter('ワンハンド')">ワンハンド</div>
-      <div class="hdr-chip"     id="c-ハンドトリップ"   onclick="setCatFilter('ハンドトリップ')">ハンドトリップ</div>
-      <div class="hdr-chip"     id="c-ピーク"           onclick="setCatFilter('ピーク')">ピーク</div>
-    </div>
-  </div>
-
+  <!-- 検索ボックス（一番上） -->
   <div class="search-row">
     <div class="search-wrap">
       <span class="search-icon">🔍</span>
       <input class="search-input" id="searchInput" type="text" placeholder="曲名を検索..." oninput="onSearchInput()">
       <button class="search-clear" id="searchClear" onclick="clearSearch()">✕</button>
     </div>
-    <button class="filter-btn" id="filterBtn" onclick="openFilterModal()">
-      <span>絞込</span>
-      <div class="filter-indicator" id="filterIndicator"></div>
-    </button>
+  </div>
+
+  <!-- トグル（検索の下） -->
+  <div class="header-toggles">
+    <!-- トグル①：グレード -->
+    <div class="toggle-group">
+      <div class="toggle-group-label">LV</div>
+      <div class="toggle-group-chips">
+        <div class="hdr-chip sel" id="g-all" onclick="setGradeFilter('all')">すべて</div>
+        <div class="hdr-chip"    id="g-17"  onclick="setGradeFilter('17')">17</div>
+        <div class="hdr-chip"    id="g-18"  onclick="setGradeFilter('18')">18</div>
+        <div class="hdr-chip"    id="g-19"  onclick="setGradeFilter('19')">19</div>
+      </div>
+    </div>
+    <!-- トグル②：カテゴリ（2行に折り返し） -->
+    <div class="toggle-group">
+      <div class="toggle-group-label">CAT</div>
+      <div class="toggle-group-chips">
+        <div class="hdr-chip sel" id="c-all"           onclick="setCatFilter('all')">すべて</div>
+        <div class="hdr-chip"     id="c-ツマミ"         onclick="setCatFilter('ツマミ')">ツマミ</div>
+        <div class="hdr-chip"     id="c-ノーツ"         onclick="setCatFilter('ノーツ')">ノーツ</div>
+        <div class="hdr-chip"     id="c-トリッキー"     onclick="setCatFilter('トリッキー')">トリッキー</div>
+        <div class="hdr-chip"     id="c-ワンハンド"     onclick="setCatFilter('ワンハンド')">ワンハンド</div>
+        <div class="hdr-chip"     id="c-ハンドトリップ" onclick="setCatFilter('ハンドトリップ')">ハンドトリップ</div>
+        <div class="hdr-chip"     id="c-ピーク"         onclick="setCatFilter('ピーク')">ピーク</div>
+      </div>
+    </div>
   </div>
 </div>
 
-<div class="active-filters" id="activePills"></div>
 <div class="list" id="listContainer">
   <div class="loading">
     <div class="loading-spinner"></div>
@@ -435,7 +360,7 @@
 </div>
 
 <!-- DETAIL OVERLAY -->
-<div class="overlay" id="detailOverlay" onclick="handleOverlayClick(event,'detail')">
+<div class="overlay" id="detailOverlay" onclick="handleOverlayClick(event)">
   <div class="detail-modal" id="detailModal">
     <div class="modal-handle"></div>
     <div class="modal-header-section">
@@ -478,39 +403,6 @@
   </div>
 </div>
 
-<!-- FILTER OVERLAY -->
-<div class="overlay" id="filterOverlay" onclick="handleOverlayClick(event,'filter')">
-  <div class="filter-modal" id="filterModal">
-    <div class="filter-modal-header">
-      <div class="filter-modal-title">絞り込み</div>
-      <button class="reset-btn" onclick="resetFilters()">リセット</button>
-    </div>
-    <div class="filter-modal-body">
-      <div class="field-block">
-        <div class="field-label">レベル（選択なし＝全て）</div>
-        <div class="level-grid" id="levelGrid"></div>
-      </div>
-      <div class="field-block">
-        <div class="field-label">危険度（選択なし＝全て）</div>
-        <div class="danger-grid">
-          <div class="danger-chip" id="fc-none"    onclick="toggleDangerFilter('none')">🔵 問題なし</div>
-          <div class="danger-chip" id="fc-caution" onclick="toggleDangerFilter('caution')">🟡 要注意</div>
-          <div class="danger-chip" id="fc-danger"  onclick="toggleDangerFilter('danger')">🔴 危険</div>
-        </div>
-      </div>
-      <div class="field-block">
-        <div class="field-label">コメント</div>
-        <div class="status-toggle">
-          <div class="status-opt sel" id="fm-all"  onclick="setMemoFilter('all')">全て</div>
-          <div class="status-opt"     id="fm-has"  onclick="setMemoFilter('has')">あり</div>
-          <div class="status-opt"     id="fm-none" onclick="setMemoFilter('none')">なし</div>
-        </div>
-      </div>
-      <button class="apply-btn" onclick="closeFilterModal()">適用</button>
-    </div>
-  </div>
-</div>
-
 <script>
 const TYPE_LABEL = {
   novice:'NOV', advanced:'ADV', exhaust:'EXH',
@@ -524,11 +416,7 @@ let songs = [], memoData = {}, currentKey = null, memoTimer = null;
 
 let fGrade = 'all';
 let fCat   = 'all';
-let fLevels = new Set();
-let fDanger = new Set();
-let fMemo   = 'all';
 
-/* ── LOCAL STORAGE ── */
 function getMemo(key) {
   return memoData[key] || { danger:'', mirror:'', judge:'', memo:'' };
 }
@@ -537,7 +425,6 @@ function saveMemo(key, data) {
   localStorage.setItem(LS_KEY, JSON.stringify(memoData));
 }
 
-/* ── DATA LOAD ── */
 async function loadSongs() {
   try {
     const res = await fetch('./songs_all.json');
@@ -548,7 +435,6 @@ async function loadSongs() {
     });
     songs = data;
     memoData = JSON.parse(localStorage.getItem(LS_KEY) || '{}');
-    buildLevelGrid();
     applyFilters();
   } catch(e) {
     document.getElementById('listContainer').innerHTML =
@@ -570,7 +456,7 @@ function esc(s) {
 /* ── GRADE TOGGLE ── */
 function setGradeFilter(val) {
   fGrade = val;
-  ['all','17','18'].forEach(v => {
+  ['all','17','18','19'].forEach(v => {
     document.getElementById(`g-${v}`).className = 'hdr-chip' + (fGrade === v ? ' sel' : '');
   });
   applyFilters();
@@ -598,41 +484,20 @@ function clearSearch() {
   applyFilters();
 }
 
-/* ── LEVEL GRID ── */
-function buildLevelGrid() {
-  const actualLevels = [...new Set(songs.map(s => s.level))].sort((a,b)=>a-b);
-  const grid = document.getElementById('levelGrid');
-  grid.innerHTML = '';
-  actualLevels.forEach(lv => {
-    const chip = document.createElement('div');
-    chip.className = 'level-chip' + (fLevels.has(lv) ? ' sel' : '');
-    chip.textContent = lv.toFixed(1);
-    chip.onclick = () => toggleLevelFilter(lv);
-    chip.id = `lv-${lv.toFixed(1).replace('.','_')}`;
-    grid.appendChild(chip);
-  });
-}
-
 /* ── MAIN RENDER ── */
 function applyFilters() {
   const q = document.getElementById('searchInput').value.toLowerCase();
 
   const filtered = songs.filter(s => {
     if (q && !s.title.toLowerCase().includes(q)) return false;
-    if (fGrade === '17' && s.level > 17.5) return false;
-    if (fGrade === '18' && s.level < 18.0) return false;
+    if (fGrade === '17' && s.level > 17.5)  return false;
+    if (fGrade === '18' && (s.level < 18.0 || s.level >= 19.0)) return false;
+    if (fGrade === '19' && s.level < 19.0)  return false;
     if (fCat !== 'all' && s.category !== fCat) return false;
-    if (fLevels.size > 0 && !fLevels.has(s.level)) return false;
-    const m = getMemo(s.key);
-    if (fDanger.size > 0 && !fDanger.has(m.danger || '')) return false;
-    if (fMemo === 'has' && !m.memo) return false;
-    if (fMemo === 'none' && m.memo) return false;
     return true;
   });
 
   document.getElementById('headerCount').textContent = `${filtered.length} / ${songs.length}曲`;
-  updatePills();
-  updateFilterIndicator();
 
   const container = document.getElementById('listContainer');
   if (filtered.length === 0) {
@@ -640,11 +505,10 @@ function applyFilters() {
     return;
   }
 
-  container.innerHTML = `<div class="result-info">${filtered.length}曲表示中</div>`;
+  container.innerHTML = '';
 
   filtered.forEach(s => {
     const m = getMemo(s.key);
-    const dangerClass = m.danger ? `danger-${m.danger}` : '';
     const tk = typeToKey(s.type);
     const memoPreview = m.memo ? esc(m.memo.slice(0,19)) + (m.memo.length > 19 ? '...' : '') : '';
 
@@ -661,7 +525,7 @@ function applyFilters() {
                       : '';
 
     const card = document.createElement('div');
-    card.className = `song-card ${dangerClass}`;
+    card.className = 'song-card';
     card.innerHTML = `
       <div class="card-danger-bar"></div>
       <div class="card-inner">
@@ -673,7 +537,6 @@ function applyFilters() {
           <div class="card-meta">
             <span class="badge badge-${tk}">${s.typeLabel}</span>
             <span class="badge">${s.level.toFixed(1)}</span>
-            <span class="badge badge-cat">${esc(s.category)}</span>
             <span class="badge">BPM ${esc(s.bpm)}</span>
           </div>
           ${memoPreview ? `<div class="card-memo">${memoPreview}</div>` : ''}
@@ -775,86 +638,9 @@ function onMemoInput() {
   }, 600);
 }
 
-/* ── FILTER MODAL ── */
-function openFilterModal() {
-  buildLevelGrid();
-  updateDangerFilterBtns();
-  updateMemoFilterBtns();
-  document.getElementById('filterOverlay').classList.add('open');
-  document.body.style.overflow = 'hidden';
-}
-function closeFilterModal() {
-  document.getElementById('filterOverlay').classList.remove('open');
-  document.body.style.overflow = '';
-  applyFilters();
-}
-
-function toggleLevelFilter(lv) {
-  if (fLevels.has(lv)) fLevels.delete(lv); else fLevels.add(lv);
-  const el = document.getElementById(`lv-${lv.toFixed(1).replace('.','_')}`);
-  if (el) el.className = 'level-chip' + (fLevels.has(lv) ? ' sel' : '');
-  applyFilters();
-}
-
-function toggleDangerFilter(val) {
-  if (fDanger.has(val)) fDanger.delete(val); else fDanger.add(val);
-  updateDangerFilterBtns();
-  applyFilters();
-}
-function updateDangerFilterBtns() {
-  document.getElementById('fc-none').className    = 'danger-chip' + (fDanger.has('none')    ? ' sel-blue'   : '');
-  document.getElementById('fc-caution').className = 'danger-chip' + (fDanger.has('caution') ? ' sel-yellow' : '');
-  document.getElementById('fc-danger').className  = 'danger-chip' + (fDanger.has('danger')  ? ' sel-red'    : '');
-}
-
-function setMemoFilter(val) { fMemo = val; updateMemoFilterBtns(); applyFilters(); }
-function updateMemoFilterBtns() {
-  ['all','has','none'].forEach(v => {
-    document.getElementById(`fm-${v}`).className = 'status-opt' + (fMemo === v ? ' sel' : '');
-  });
-}
-
-function resetFilters() {
-  fLevels.clear(); fDanger.clear(); fMemo = 'all';
-  buildLevelGrid(); updateDangerFilterBtns(); updateMemoFilterBtns();
-  applyFilters();
-}
-
-function updateFilterIndicator() {
-  const active = fLevels.size > 0 || fDanger.size > 0 || fMemo !== 'all';
-  document.getElementById('filterIndicator').className = 'filter-indicator' + (active ? ' show' : '');
-  document.getElementById('filterBtn').className = 'filter-btn' + (active ? ' active' : '');
-}
-
-function updatePills() {
-  const container = document.getElementById('activePills');
-  container.innerHTML = '';
-  fLevels.forEach(lv => {
-    const pill = document.createElement('div');
-    pill.className = 'filter-pill';
-    pill.innerHTML = `${lv.toFixed(1)} <span onclick="toggleLevelFilter(${lv})">✕</span>`;
-    container.appendChild(pill);
-  });
-  const dangerNames = { none:'問題なし', caution:'要注意', danger:'危険' };
-  fDanger.forEach(d => {
-    const pill = document.createElement('div');
-    pill.className = 'filter-pill';
-    pill.innerHTML = `${dangerNames[d]} <span onclick="toggleDangerFilter('${d}')">✕</span>`;
-    container.appendChild(pill);
-  });
-  if (fMemo !== 'all') {
-    const pill = document.createElement('div');
-    pill.className = 'filter-pill';
-    pill.innerHTML = `メモ${fMemo === 'has' ? 'あり' : 'なし'} <span onclick="setMemoFilter('all')">✕</span>`;
-    container.appendChild(pill);
-  }
-}
-
-function handleOverlayClick(e, type) {
-  const modal = document.getElementById(type === 'detail' ? 'detailModal' : 'filterModal');
-  if (!modal.contains(e.target)) {
-    type === 'detail' ? closeDetail() : closeFilterModal();
-  }
+function handleOverlayClick(e) {
+  const modal = document.getElementById('detailModal');
+  if (!modal.contains(e.target)) closeDetail();
 }
 
 loadSongs();
