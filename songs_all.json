@@ -66,6 +66,28 @@
     "reading": "あいむそうはっぴー"
   },
   {
+    "title": "Awakening",
+    "category": null,
+    "grade": 19,
+    "level": 19.6,
+    "bpm": "208",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1188_awakening_technoplanet/jk_1188_5_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1188/5/",
+    "reading": "あうぇいくにんぐ"
+  },
+  {
+    "title": "OUTERHEΛVEN",
+    "category": null,
+    "grade": 19,
+    "level": 19.5,
+    "bpm": "210",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1496_outerheaven_juggernaut/jk_1496_5_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1496/5/",
+    "reading": "あうたーへぶん"
+  },
+  {
     "title": "アキネイション",
     "category": "ピーク",
     "grade": 17,
@@ -97,6 +119,17 @@
     "jacket": "https://sdvxindex.com//img/1785_acrossthestarlight_kayuki/jk_1785_1_b.webp",
     "chartUrl": "https://sdvxindex.com/s/1785/5/",
     "reading": "あくろすざすたーらいと"
+  },
+  {
+    "title": "αzalea",
+    "category": null,
+    "grade": 19,
+    "level": 19.2,
+    "bpm": "99–198",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1763_azalea_blacky/jk_1763_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1763/5/",
+    "reading": "あざれあ"
   },
   {
     "title": "ASGORE / アズゴア",
@@ -242,6 +275,17 @@
     "reading": "あるでのく"
   },
   {
+    "title": "Ardenok",
+    "category": null,
+    "grade": 19,
+    "level": 19.4,
+    "bpm": "167",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/2202_ardenok_kanonenora2r/jk_2202_5_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/2202/5/",
+    "reading": "あるでのく"
+  },
+  {
     "title": "ΑΩ",
     "category": "ワンハンド",
     "grade": 18,
@@ -295,6 +339,17 @@
     "jacket": "https://sdvxindex.com//img/2041_merrybadend_polysha/jk_2041_3_b.webp",
     "chartUrl": "https://sdvxindex.com/s/2041/3/",
     "reading": "あんどあふたーざめりーばっどえんど"
+  },
+  {
+    "title": "Ambivalent Vermilia",
+    "category": null,
+    "grade": 19,
+    "level": 19.2,
+    "bpm": "185",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/2164_ambivalentvermilia_suzaku/jk_2164_5_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/2164/5/",
+    "reading": "あんびばれんとはーみりあ"
   },
   {
     "title": "Unleashed Redness",
@@ -438,6 +493,17 @@
     "jacket": "https://sdvxindex.com//img/1797_imperator_xe/jk_1797_1_b.webp",
     "chartUrl": "https://sdvxindex.com/s/1797/5/",
     "reading": "いんぺらとる"
+  },
+  {
+    "title": "Immortal saga",
+    "category": null,
+    "grade": 19,
+    "level": 19,
+    "bpm": "205",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1044_immortal_saga_noah/jk_1044_5_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1044/5/",
+    "reading": "いんもーたるさーが"
   },
   {
     "title": "#Evil_Signs_of_Bloodlines",
@@ -627,6 +693,17 @@
     "reading": "えれめんたるくりえいしょんかもめさのりみっくす"
   },
   {
+    "title": "EROICA",
+    "category": null,
+    "grade": 19,
+    "level": 19.7,
+    "bpm": "200",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/2246_eroica_hero/jk_2246_5_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/2246/5/",
+    "reading": "えろいか"
+  },
+  {
     "title": "炎夏の音",
     "category": "ワンハンド",
     "grade": 17,
@@ -726,6 +803,17 @@
     "reading": "えゔぁーらすてぃんぐめっせーじ"
   },
   {
+    "title": "Everlasting Message",
+    "category": null,
+    "grade": 19,
+    "level": 19.3,
+    "bpm": "230",
+    "type": "gravity",
+    "jacket": "https://sdvxindex.com//img/0636_everlasting_penoreri/jk_0636_4_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/0636/4g/",
+    "reading": "えゔぁーらすてぃんぐめっせーじ"
+  },
+  {
     "title": "ØƵ",
     "category": "ノーツ",
     "grade": 18,
@@ -757,6 +845,17 @@
     "jacket": "https://sdvxindex.com//img/1134_oriens_ginkiha/jk_1134_1_b.webp",
     "chartUrl": "https://sdvxindex.com/s/1134/5/",
     "reading": "おりえんす"
+  },
+  {
+    "title": "†:OLPHEUX:†",
+    "category": null,
+    "grade": 19,
+    "level": 19.4,
+    "bpm": "276",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1591_olpheux_juggernaut/jk_1591_5_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1591/5/",
+    "reading": "おるふぇうす"
   },
   {
     "title": "ØVER《Δ》",
@@ -889,6 +988,17 @@
     "jacket": "https://sdvxindex.com//img/2199_kannagi_blacky/jk_2199_3_b.webp",
     "chartUrl": "https://sdvxindex.com/s/2199/3/",
     "reading": "かんなぎ"
+  },
+  {
+    "title": "Ganymede kamome mix",
+    "category": null,
+    "grade": 19,
+    "level": 19.3,
+    "bpm": "200",
+    "type": "infinite",
+    "jacket": "https://sdvxindex.com//img/0073_ganymede_kamome/jk_0073_4_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/0073/4i/",
+    "reading": "がにめでかもめみっくす"
   },
   {
     "title": "GERBERA",
@@ -1155,6 +1265,17 @@
     "reading": "ぐりふぉん"
   },
   {
+    "title": "Gryphone",
+    "category": null,
+    "grade": 19,
+    "level": 19.5,
+    "bpm": "175",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/2226_gryphone_etia/jk_2226_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/2226/5/",
+    "reading": "ぐりふぉん"
+  },
+  {
     "title": "CAKE,Cake'n Cake!",
     "category": "ピーク",
     "grade": 18,
@@ -1219,6 +1340,17 @@
     "jacket": "https://sdvxindex.com//img/2003_gateofrmx_maskaleido/jk_2003_5_b.webp",
     "chartUrl": "https://sdvxindex.com/s/2003/5/",
     "reading": "げーとおぶあとらんてぃすぼーかるちぇいんみっくす"
+  },
+  {
+    "title": "黒蝶のワルツ",
+    "category": null,
+    "grade": 19,
+    "level": 19.7,
+    "bpm": "108–160",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/2225_waltzofdahlia_penoreri/jk_2225_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/2225/5/",
+    "reading": "こくちょうのわるつ"
   },
   {
     "title": "孤月群雲に沈む",
@@ -1364,6 +1496,17 @@
     "reading": "さうんずおぶさまー"
   },
   {
+    "title": "逆月",
+    "category": null,
+    "grade": 19,
+    "level": 19,
+    "bpm": "280",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1329_sakaduki_humer/jk_1329_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1329/5/",
+    "reading": "さかづき"
+  },
+  {
     "title": "SACRIFICE feat. ayame",
     "category": "ハンドトリップ",
     "grade": 18,
@@ -1373,6 +1516,17 @@
     "jacket": "https://sdvxindex.com//img/1072_sacrifice_alstroemeria_records/jk_1072_1_b.webp",
     "chartUrl": "https://sdvxindex.com/s/1072/5/",
     "reading": "さくりふぁいすふぃーちゃりんぐあやめ"
+  },
+  {
+    "title": "SuddeИDeath",
+    "category": null,
+    "grade": 19,
+    "level": 19.1,
+    "bpm": "236",
+    "type": "exhaust",
+    "jacket": "https://sdvxindex.com//img/1938_suddendeath_ximorimori/jk_1938_3_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1938/3/",
+    "reading": "さどんです"
   },
   {
     "title": "Circumzenith Arc",
@@ -1428,6 +1582,17 @@
     "jacket": "https://sdvxindex.com//img/1060_the_formula_junk/jk_1060_1_b.webp",
     "chartUrl": "https://sdvxindex.com/s/1060/5/",
     "reading": "ざふぉーみゅら"
+  },
+  {
+    "title": "幸せになれる隠しコマンドがあるらしい",
+    "category": null,
+    "grade": 19,
+    "level": 19.1,
+    "bpm": "142",
+    "type": "exceed",
+    "jacket": "https://sdvxindex.com//img/0469_siawaseninareru_utatap/jk_0469_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/0469/4x/",
+    "reading": "しあわせになれるかくしこまんどがあるらしい"
   },
   {
     "title": "666",
@@ -1540,6 +1705,17 @@
     "reading": "しんか"
   },
   {
+    "title": "Synthesis.",
+    "category": null,
+    "grade": 19,
+    "level": 19.2,
+    "bpm": "180",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/2346_synthesis_tnshi/jk_2346_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/2346/5/",
+    "reading": "しんせしす"
+  },
+  {
     "title": "神罰",
     "category": "ノーツ",
     "grade": 18,
@@ -1639,6 +1815,17 @@
     "reading": "すてぃーりあ"
   },
   {
+    "title": "Zt!ri△",
+    "category": null,
+    "grade": 19,
+    "level": 19.5,
+    "bpm": "260",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/2355_ztiria_masumiroughsketch/jk_2355_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/2355/5/",
+    "reading": "すてぃーりあ"
+  },
+  {
     "title": "ステラレギア",
     "category": "ツマミ",
     "grade": 17,
@@ -1705,6 +1892,17 @@
     "reading": "すもーくどたーきーらぐ"
   },
   {
+    "title": "Superstar!",
+    "category": null,
+    "grade": 19,
+    "level": 19.5,
+    "bpm": "280",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/2097_superstar_tatsunoshin/jk_2097_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/2097/5/",
+    "reading": "すーぱーすたー"
+  },
+  {
     "title": "星界のアルペジオ",
     "category": "ピーク",
     "grade": 18,
@@ -1725,6 +1923,17 @@
     "jacket": "https://sdvxindex.com//img/1262_seizagakoishita_djtotto/jk_1262_1_b.webp",
     "chartUrl": "https://sdvxindex.com/s/1262/5/",
     "reading": "せいざがこいしたしゅんかんを"
+  },
+  {
+    "title": "セイレーン ～悲壮の竪琴～",
+    "category": null,
+    "grade": 19,
+    "level": 19.4,
+    "bpm": "93–214",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1104_seiren_penoreri/jk_1104_5_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1104/5/",
+    "reading": "せいれーんひそうのたてごと"
   },
   {
     "title": "世界はネコのもの",
@@ -1758,6 +1967,28 @@
     "jacket": "https://sdvxindex.com//img/0522_seraphim_yooh/jk_0522_3_b.webp",
     "chartUrl": "https://sdvxindex.com/s/0522/3/",
     "reading": "せらふぃむ"
+  },
+  {
+    "title": "Xeno Gravity",
+    "category": null,
+    "grade": 19,
+    "level": 19.9,
+    "bpm": "286",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/2151_xenogravity_xi/jk_2151_5_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/2151/5/",
+    "reading": "ぜのぐらびてぃ"
+  },
+  {
+    "title": "Xéroa",
+    "category": null,
+    "grade": 19,
+    "level": 19.6,
+    "bpm": "301",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1189_xeroa_kameria/jk_1189_5_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1189/5/",
+    "reading": "ぜろあ"
   },
   {
     "title": "そして紫の幻想曲は全てを受け入れる",
@@ -1936,6 +2167,17 @@
     "reading": "つまみせんたいたてれんじゃー"
   },
   {
+    "title": "Titanomachia",
+    "category": null,
+    "grade": 19,
+    "level": 19.3,
+    "bpm": "165",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/2201_titanomachia_dadadaizusiromaru/jk_2201_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/2201/5/",
+    "reading": "てぃたのまきあ"
+  },
+  {
     "title": "Tickled Pink",
     "category": "ワンハンド",
     "grade": 18,
@@ -1978,6 +2220,17 @@
     "jacket": "https://sdvxindex.com//img/2320_tengeitan_teduka/jk_2320_1_b.webp",
     "chartUrl": "https://sdvxindex.com/s/2320/5/",
     "reading": "てんげいたん"
+  },
+  {
+    "title": "Xb10r",
+    "category": null,
+    "grade": 19,
+    "level": 19.7,
+    "bpm": "200",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1771_xb10r_tonarinoniwa/jk_1771_5_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1771/5/",
+    "reading": "てんぶらー"
   },
   {
     "title": "DIABLOSIS::Nāga",
@@ -2376,6 +2629,17 @@
     "reading": "のふらむ"
   },
   {
+    "title": "No→to",
+    "category": null,
+    "grade": 19,
+    "level": 19.5,
+    "bpm": "213",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/2331_noto_dadadaizu/jk_2331_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/2331/5/",
+    "reading": "のーと"
+  },
+  {
     "title": "ハッピーエンド",
     "category": "ピーク",
     "grade": 18,
@@ -2453,6 +2717,17 @@
     "reading": "ばくれつかんげいえくすとりーむやむちゃせんぷうきゃく"
   },
   {
+    "title": "Baphomet",
+    "category": null,
+    "grade": 19,
+    "level": 19.7,
+    "bpm": "266",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/2372_baphomet_laur/jk_2372_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/2372/5/",
+    "reading": "ばふぉめっと"
+  },
+  {
     "title": "Bangin' Burst",
     "category": "ピーク",
     "grade": 18,
@@ -2462,6 +2737,28 @@
     "jacket": "https://sdvxindex.com//img/0366_bangin_burst_kameria/jk_0366_3_b.webp",
     "chartUrl": "https://sdvxindex.com/s/0366/3/",
     "reading": "ばんぎんばーすと"
+  },
+  {
+    "title": "Bangin' Burst",
+    "category": null,
+    "grade": 19,
+    "level": 19.5,
+    "bpm": "234",
+    "type": "gravity",
+    "jacket": "https://sdvxindex.com//img/0366_bangin_burst_kameria/jk_0366_4_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/0366/4g/",
+    "reading": "ばんぎんばーすと"
+  },
+  {
+    "title": "Burst Λnd reBoost",
+    "category": null,
+    "grade": 19,
+    "level": 19.4,
+    "bpm": "203–232",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/2084_burstandreboot_meto/jk_2084_5_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/2084/5/",
+    "reading": "ばーすとあんどりぶーすと"
   },
   {
     "title": "Verse IV",
@@ -2662,6 +2959,17 @@
     "reading": "ふぁーごん"
   },
   {
+    "title": "Fiat Lux",
+    "category": null,
+    "grade": 19,
+    "level": 19.7,
+    "bpm": "200",
+    "type": "exceed",
+    "jacket": "https://sdvxindex.com//img/0342_fiat_lux_xi/jk_0342_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/0342/4x/",
+    "reading": "ふぃあっとるくす"
+  },
+  {
     "title": "FIN4LE ～終止線の彼方へ～",
     "category": "ピーク",
     "grade": 18,
@@ -2750,6 +3058,17 @@
     "reading": "ふじもりふぇすてぃばる"
   },
   {
+    "title": "Fly Like You",
+    "category": null,
+    "grade": 19,
+    "level": 19.7,
+    "bpm": "196–286",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1273_flylikeyou_technoplanet/jk_1273_5_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1273/5/",
+    "reading": "ふらいらいくゆー"
+  },
+  {
     "title": "FLOWER REDALiCE Remix",
     "category": "ワンハンド",
     "grade": 18,
@@ -2759,6 +3078,17 @@
     "jacket": "https://sdvxindex.com//img/0047_flower_redalice/jk_0047_4_b.webp",
     "chartUrl": "https://sdvxindex.com/s/0047/4i/",
     "reading": "ふらわーれっどありすりみっくす"
+  },
+  {
+    "title": "FLügeL《Λrp:ΣggyØ》",
+    "category": null,
+    "grade": 19,
+    "level": 19.7,
+    "bpm": "120–240",
+    "type": "gravity",
+    "jacket": "https://sdvxindex.com//img/0915_flugel_arpeggyo_kanekochiharu/jk_0915_4_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/0915/4g/",
+    "reading": "ふりゅーげるあるぺじお"
   },
   {
     "title": "Blastix Riotz",
@@ -2871,6 +3201,17 @@
     "reading": "ぶれいくねっくぱしゅーと"
   },
   {
+    "title": "Breakneck Pursuit",
+    "category": null,
+    "grade": 19,
+    "level": 19.2,
+    "bpm": "210",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/2040_breakneckpursuit_ashrount/jk_2040_5_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/2040/5/",
+    "reading": "ぶれいくねっくぱしゅーと"
+  },
+  {
     "title": "BLAZE∞BREEZE",
     "category": "ノーツ",
     "grade": 17,
@@ -2915,6 +3256,17 @@
     "reading": "ぷらねたじゃーにー"
   },
   {
+    "title": "Preserved Valkyria",
+    "category": null,
+    "grade": 19,
+    "level": 19.2,
+    "bpm": "115–220",
+    "type": "gravity",
+    "jacket": "https://sdvxindex.com//img/0694_preserved_valkyria_penoreri/jk_0694_4_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/0694/4g/",
+    "reading": "ぷりざーぶどゔぁるきゅりあ"
+  },
+  {
     "title": "Hexennacht",
     "category": "ツマミ",
     "grade": 17,
@@ -2957,6 +3309,17 @@
     "jacket": "https://sdvxindex.com//img/1869_berrygo_freezer/jk_1869_1_b.webp",
     "chartUrl": "https://sdvxindex.com/s/1869/5/",
     "reading": "べりーごー"
+  },
+  {
+    "title": "BELOBOG",
+    "category": null,
+    "grade": 19,
+    "level": 19.4,
+    "bpm": "200",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1221_belobog_junpakunoivory/jk_1221_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1221/5/",
+    "reading": "べろぼーぐ"
   },
   {
     "title": "Pet Peeve",
@@ -3344,6 +3707,17 @@
     "reading": "らぶらぶとりっくまじかるぱふゅーむ"
   },
   {
+    "title": "REINCARNATION",
+    "category": null,
+    "grade": 19,
+    "level": 19.3,
+    "bpm": "220",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/2180_reincarnation_plight/jk_2180_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/2180/5/",
+    "reading": "りいんかーねーしょん"
+  },
+  {
     "title": "ЯegreT of MemoRy",
     "category": "ノーツ",
     "grade": 17,
@@ -3407,6 +3781,17 @@
     "type": "exhaust",
     "jacket": "https://sdvxindex.com//img/1593_lubeder_cshow/jk_1593_3_b.webp",
     "chartUrl": "https://sdvxindex.com/s/1593/3/",
+    "reading": "りゅべだー"
+  },
+  {
+    "title": "LubedeR",
+    "category": null,
+    "grade": 19,
+    "level": 19.1,
+    "bpm": "256",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1593_lubeder_cshow/jk_1593_5_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1593/5/",
     "reading": "りゅべだー"
   },
   {
@@ -3474,6 +3859,17 @@
     "jacket": "https://sdvxindex.com//img/2032_lostemotion_alstroemeriarecords/jk_2032_1_b.webp",
     "chartUrl": "https://sdvxindex.com/s/2032/5/",
     "reading": "ろすとえもーしょんふぃーちゃりんぐのみこ"
+  },
+  {
+    "title": "Lord=Crossight",
+    "category": null,
+    "grade": 19,
+    "level": 19.1,
+    "bpm": "154",
+    "type": "gravity",
+    "jacket": "https://sdvxindex.com//img/0913_lordcrossight_penoreri/jk_0913_4_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/0913/4g/",
+    "reading": "ろーどくろさいと"
   },
   {
     "title": "while (screen is blue)",
