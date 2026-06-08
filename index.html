@@ -308,7 +308,7 @@ Index · HTML
   <div class="search-row">
     <div class="search-wrap">
       <span class="search-icon">🔍</span>
-      <input class="search-input" id="searchInput" type="text" placeholder="曲名を検索..." oninput="onSearchInput()">
+      <input class="search-input" id="searchInput" type="text" placeholder="曲名・よみがなで検索..." oninput="onSearchInput()">
       <button class="search-clear" id="searchClear" onclick="clearSearch()">✕</button>
     </div>
   </div>
@@ -473,7 +473,7 @@ function applyFilters() {
   const q = document.getElementById('searchInput').value.toLowerCase();
  
   const filtered = songs.filter(s => {
-    if (q && !s.title.toLowerCase().includes(q)) return false;
+    if (q && !s.title.toLowerCase().includes(q) && !(s.reading && s.reading.includes(q))) return false;
     if (fGrade === '17' && s.level > 17.5) return false;
     if (fGrade === '18' && (s.level < 18.0 || s.level >= 19.0)) return false;
     if (fGrade === '19' && s.level < 19.0) return false;
