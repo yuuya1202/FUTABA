@@ -545,6 +545,19 @@
     "reading": "いふ"
   },
   {
+    "title": "// If Summer Ever Comes_",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 19,
+    "level": 19.8,
+    "bpm": "155–185",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/2254_ifsummerevercomes_kuroma/jk_2254_5_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/2254/5/",
+    "reading": "いふさまーえゔぁーかむず"
+  },
+  {
     "title": "Iridescent Clouds",
     "category": [
       "ノーツ"
@@ -1098,6 +1111,19 @@
     "reading": "おーるふぉーわん"
   },
   {
+    "title": "Over The Top",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 18,
+    "level": 18.6,
+    "bpm": "205",
+    "type": "vivid",
+    "jacket": "https://sdvxindex.com//img/1554_overthetop_ashrount/jk_1554_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1554/4v/",
+    "reading": "おーゔぁーざとっぷ"
+  },
+  {
     "title": "Chaotic Romance",
     "category": [
       "ノーツ"
@@ -1148,6 +1174,19 @@
     "jacket": "https://sdvxindex.com//img/1585_katharsis_uz/jk_1585_5_b.webp",
     "chartUrl": "https://sdvxindex.com/s/1585/5/",
     "reading": "かたるしす"
+  },
+  {
+    "title": "CadenzaMaiden",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 18,
+    "level": 18.6,
+    "bpm": "145–290",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1930_cadenzamaiden_uz/jk_1930_5_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1930/5/",
+    "reading": "かでんつぁめいでん"
   },
   {
     "title": "異次元の孤独～カナタノキミヘ～",
@@ -1659,6 +1698,19 @@
     "reading": "こくちょうのわるつ"
   },
   {
+    "title": "黒蝶のワルツ",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 17,
+    "level": 17.5,
+    "bpm": "108–160",
+    "type": "exhaust",
+    "jacket": "https://sdvxindex.com//img/2225_waltzofdahlia_penoreri/jk_2225_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/2225/3/",
+    "reading": "こくちょうのわるつ"
+  },
+  {
     "title": "孤月群雲に沈む",
     "category": [
       "ワンハンド"
@@ -1724,6 +1776,19 @@
     "reading": "こんぷりーとねすあんだーいんこんぷりーとねす"
   },
   {
+    "title": "混乱少女♥そふらんちゃん!!",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 19,
+    "level": 19.6,
+    "bpm": "32–259",
+    "type": "exceed",
+    "jacket": "https://sdvxindex.com//img/0653_konransyojo_kameria/jk_0653_4_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/0653/4x/",
+    "reading": "こんらんしょうじょそふらんちゃん"
+  },
+  {
     "title": "CODE -CRiMSON-",
     "category": [
       "ノーツ"
@@ -1748,6 +1813,19 @@
     "jacket": "https://sdvxindex.com//img/1208_coldapse_aoi/jk_1208_1_b.webp",
     "chartUrl": "https://sdvxindex.com/s/1208/5/",
     "reading": "こーるどらぷす"
+  },
+  {
+    "title": "極彩天奏",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 18,
+    "level": 18.7,
+    "bpm": "156",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1011_gokusaitenso_kayuki/jk_1011_5_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1011/5/",
+    "reading": "ごくさいてんそう"
   },
   {
     "title": "Golden Rotation",
@@ -1987,6 +2065,19 @@
     "reading": "しゃくなるやいばはかいうた"
   },
   {
+    "title": "灼熱Beach Side Bunny",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 18,
+    "level": 18.6,
+    "bpm": "153",
+    "type": "exhaust",
+    "jacket": "https://sdvxindex.com//img/0698_syakunetsu_djmass/jk_0698_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/0698/3/",
+    "reading": "しゃくねつびーちさいどばにー"
+  },
+  {
     "title": "Chat perché",
     "category": [
       "ハンドトリップ"
@@ -2159,6 +2250,19 @@
     "jacket": "https://sdvxindex.com//img/1254_secrettraveler_adustrain/jk_1254_5_b.webp",
     "chartUrl": "https://sdvxindex.com/s/1254/5/",
     "reading": "しーくれっととらべらーめにりみっくす"
+  },
+  {
+    "title": "Juωpscare!!",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 18,
+    "level": 18.1,
+    "bpm": "90–128",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1934_jumpscare_cotatsu/jk_1934_5_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1934/5/",
+    "reading": "じゃんぷすけあ"
   },
   {
     "title": "翠雨の祷",
@@ -2590,6 +2694,19 @@
     "reading": "ちくさくこーるがなつかしい"
   },
   {
+    "title": "ちくたく2ちく2ぱ",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 18,
+    "level": 18.6,
+    "bpm": "190",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/2336_ticktackchikupa_risyuu/jk_2336_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/2336/5/",
+    "reading": "ちくたくちくたくちくちくぱ"
+  },
+  {
     "title": "Chakra",
     "category": [
       "ワンハンド"
@@ -2712,6 +2829,19 @@
     "reading": "ていくあすてっぷふぉわーど"
   },
   {
+    "title": "Test Flight",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 18,
+    "level": 18.5,
+    "bpm": "188",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1843_testflight_kuroma/jk_1843_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1843/5/",
+    "reading": "てすとふらいと"
+  },
+  {
     "title": "テトリス",
     "category": [
       "ワンハンド"
@@ -2793,6 +2923,19 @@
     "jacket": "https://sdvxindex.com//img/0329_decretum_project_mayhem/jk_0329_1_b.webp",
     "chartUrl": "https://sdvxindex.com/s/0329/3/",
     "reading": "でぃくれいとぅーむ"
+  },
+  {
+    "title": "D.I.X.",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 18,
+    "level": 18.7,
+    "bpm": "70–1080",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1936_dix_higurashisuzuri/jk_1936_5_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1936/5/",
+    "reading": "でぃす"
   },
   {
     "title": "Distorted Floor",
@@ -3003,6 +3146,19 @@
     "reading": "とぅーびーすつあんちぇいんど"
   },
   {
+    "title": "2 Beasts Unchained",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 19,
+    "level": 19.4,
+    "bpm": "175",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1847_2beasts_korskyooh/jk_1847_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1847/5/",
+    "reading": "とぅーびーすつあんちぇいんど"
+  },
+  {
     "title": "常夏！！クリスタライズ・シャーベット",
     "category": [
       "ツマミ"
@@ -3081,6 +3237,19 @@
     "reading": "どりーみんぐふぃーちゃりんぐりゅう"
   },
   {
+    "title": "ドリームエンド・サバイバー(Hidra-Xjeil Remix)",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 18,
+    "level": 18.2,
+    "bpm": "215",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1996_dreamendrmx_hidra/jk_1996_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1996/5/",
+    "reading": "どりーむえんどさばいばーはいどらりみっくす"
+  },
+  {
     "title": "Dreadnought",
     "category": [
       "ピーク"
@@ -3157,6 +3326,19 @@
     "jacket": "https://sdvxindex.com//img/1951_nadir_ashrountpolysha/jk_1951_5_b.webp",
     "chartUrl": "https://sdvxindex.com/s/1951/5/",
     "reading": "ねいでぃあ"
+  },
+  {
+    "title": "NEO GRAVITY",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 18,
+    "level": 18.7,
+    "bpm": "165",
+    "type": "exceed",
+    "jacket": "https://sdvxindex.com//img/0788_neogravity_lapix/jk_0788_4_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/0788/4x/",
+    "reading": "ねおぐらびてぃ"
   },
   {
     "title": "NEON LOVE♥POTION!!!",
@@ -3331,6 +3513,19 @@
     "jacket": "https://sdvxindex.com//img/1684_bakuretsukangei_blacky/jk_1684_5_b.webp",
     "chartUrl": "https://sdvxindex.com/s/1684/5/",
     "reading": "ばくれつかんげいえくすとりーむやむちゃせんぷうきゃく"
+  },
+  {
+    "title": "Vanishment for reconstruction",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 18,
+    "level": 18.5,
+    "bpm": "158",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/2309_vanishmentfor_kagetora/jk_2309_5_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/2309/5/",
+    "reading": "ばにっしゅめんとふぉーりこんすとらくしょん"
   },
   {
     "title": "Baphomet",
@@ -3807,6 +4002,19 @@
     "reading": "ふりゅーげるあるぺじお"
   },
   {
+    "title": "Fl0ating:",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 18,
+    "level": 18.6,
+    "bpm": "206",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1953_fl0ting_yuichinagao/jk_1953_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1953/5/",
+    "reading": "ふろーてぃんぐ"
+  },
+  {
     "title": "Blastix Riotz",
     "category": [
       "ピーク"
@@ -3981,6 +4189,19 @@
     "reading": "ぶろっさむ"
   },
   {
+    "title": "Broken 8cmix",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 18,
+    "level": 18.6,
+    "bpm": "150",
+    "type": "heavenly",
+    "jacket": "https://sdvxindex.com//img/0002_broken_iroha/jk_0002_4_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/0002/4h/",
+    "reading": "ぶろーくんえいとしーみっくす"
+  },
+  {
     "title": "Petit espoir",
     "category": [
       "ノーツ"
@@ -4106,6 +4327,19 @@
     "jacket": "https://sdvxindex.com//img/0598_pet_peeve_hirayasu/jk_0598_1_b.webp",
     "chartUrl": "https://sdvxindex.com/s/0598/3/",
     "reading": "ぺっとぴーゔ"
+  },
+  {
+    "title": "Wheel",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 17,
+    "level": 17.5,
+    "bpm": "136",
+    "type": "heavenly",
+    "jacket": "https://sdvxindex.com//img/0139_wheel_syrufit/jk_0139_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/0139/4h/",
+    "reading": "ほいーる"
   },
   {
     "title": "蓬莱フェスティボー",
@@ -4238,6 +4472,19 @@
     "reading": "ぽめぐらねいと"
   },
   {
+    "title": "MAXIVCORD",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 17,
+    "level": 17.5,
+    "bpm": "154",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1284_maxivcord_djtaka/jk_1284_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1284/5/",
+    "reading": "まきしぶこーど"
+  },
+  {
     "title": "Macuilxochitl (Latin Jazz Mix)",
     "category": [
       "ノーツ"
@@ -4262,6 +4509,19 @@
     "jacket": "https://sdvxindex.com//img/0708_masakari_blade_redalice/jk_0708_3_b.webp",
     "chartUrl": "https://sdvxindex.com/s/0708/3/",
     "reading": "まさかりぶれいど"
+  },
+  {
+    "title": "Max Burning!!(GαineN Beyond yΩu Remix)",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 18,
+    "level": 18.5,
+    "bpm": "200",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1993_makubarmx_gainen/jk_1993_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1993/5/",
+    "reading": "まっくすばーにんぐがいねんびよんどゆーりみっくす"
   },
   {
     "title": "MΔX FLAVØR",
@@ -4581,6 +4841,19 @@
     "reading": "りぐれっとおぶめもりー"
   },
   {
+    "title": "rhythmology study",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 17,
+    "level": 17.5,
+    "bpm": "270",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1023_rhythmology_furuya/jk_1023_5_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1023/5/",
+    "reading": "りずもろじーすたでぃ"
+  },
+  {
     "title": "Little princess has no identity.",
     "category": [
       "ワンハンド"
@@ -4836,278 +5109,5 @@
     "jacket": "https://sdvxindex.com//img/1992_v2vrmx_kameria/jk_1992_5_b.webp",
     "chartUrl": "https://sdvxindex.com/s/1992/5/",
     "reading": "ゔぉいすななゔぉいす"
-  },
-  {
-    "title": "rhythmology study",
-    "category": [
-      "Chaos"
-    ],
-    "grade": 17,
-    "level": 17.5,
-    "bpm": "270",
-    "type": "maximum",
-    "jacket": "https://sdvxindex.com//img/1023_rhythmology_furuya/jk_1023_5_b.webp",
-    "chartUrl": "https://sdvxindex.com/s/1023/5/",
-    "reading": "りずもろじーすたでぃ"
-  },
-  {
-    "title": "MAXIVCORD",
-    "category": [
-      "Chaos"
-    ],
-    "grade": 17,
-    "level": 17.5,
-    "bpm": "154",
-    "type": "maximum",
-    "jacket": "https://sdvxindex.com//img/1284_maxivcord_djtaka/jk_1284_1_b.webp",
-    "chartUrl": "https://sdvxindex.com/s/1284/5/",
-    "reading": "まきしぶこーど"
-  },
-  {
-    "title": "黒蝶のワルツ",
-    "category": [
-      "Chaos"
-    ],
-    "grade": 17,
-    "level": 17.5,
-    "bpm": "108–160",
-    "type": "exhaust",
-    "jacket": "https://sdvxindex.com//img/2225_waltzofdahlia_penoreri/jk_2225_1_b.webp",
-    "chartUrl": "https://sdvxindex.com/s/2225/3/",
-    "reading": "こくちょうのわるつ"
-  },
-  {
-    "title": "Wheel",
-    "category": [
-      "Chaos"
-    ],
-    "grade": 17,
-    "level": 17.5,
-    "bpm": "136",
-    "type": "heavenly",
-    "jacket": "https://sdvxindex.com//img/0139_wheel_syrufit/jk_0139_1_b.webp",
-    "chartUrl": "https://sdvxindex.com/s/0139/4h/",
-    "reading": "ほいーる"
-  },
-  {
-    "title": "Juωpscare!!",
-    "category": [
-      "Chaos"
-    ],
-    "grade": 18,
-    "level": 18.1,
-    "bpm": "90–128",
-    "type": "maximum",
-    "jacket": "https://sdvxindex.com//img/1934_jumpscare_cotatsu/jk_1934_5_b.webp",
-    "chartUrl": "https://sdvxindex.com/s/1934/5/",
-    "reading": "じゃんぷすけあ"
-  },
-  {
-    "title": "極彩天奏",
-    "category": [
-      "Chaos"
-    ],
-    "grade": 18,
-    "level": 18.7,
-    "bpm": "156",
-    "type": "maximum",
-    "jacket": "https://sdvxindex.com//img/1011_gokusaitenso_kayuki/jk_1011_5_b.webp",
-    "chartUrl": "https://sdvxindex.com/s/1011/5/",
-    "reading": "ごくさいてんそう"
-  },
-  {
-    "title": "ドリームエンド・サバイバー(Hidra-Xjeil Remix)",
-    "category": [
-      "Chaos"
-    ],
-    "grade": 18,
-    "level": 18.2,
-    "bpm": "215",
-    "type": "maximum",
-    "jacket": "https://sdvxindex.com//img/1996_dreamendrmx_hidra/jk_1996_1_b.webp",
-    "chartUrl": "https://sdvxindex.com/s/1996/5/",
-    "reading": "どりーむえんどさばいばーはいどらりみっくす"
-  },
-  {
-    "title": "NEO GRAVITY",
-    "category": [
-      "Chaos"
-    ],
-    "grade": 18,
-    "level": 18.7,
-    "bpm": "165",
-    "type": "exceed",
-    "jacket": "https://sdvxindex.com//img/0788_neogravity_lapix/jk_0788_4_b.webp",
-    "chartUrl": "https://sdvxindex.com/s/0788/4x/",
-    "reading": "ねおぐらびてぃ"
-  },
-  {
-    "title": "CadenzaMaiden",
-    "category": [
-      "Chaos"
-    ],
-    "grade": 18,
-    "level": 18.6,
-    "bpm": "145–290",
-    "type": "maximum",
-    "jacket": "https://sdvxindex.com//img/1930_cadenzamaiden_uz/jk_1930_5_b.webp",
-    "chartUrl": "https://sdvxindex.com/s/1930/5/",
-    "reading": "かでんつぁめいでん"
-  },
-  {
-    "title": "D.I.X.",
-    "category": [
-      "Chaos"
-    ],
-    "grade": 18,
-    "level": 18.7,
-    "bpm": "70–1080",
-    "type": "maximum",
-    "jacket": "https://sdvxindex.com//img/1936_dix_higurashisuzuri/jk_1936_5_b.webp",
-    "chartUrl": "https://sdvxindex.com/s/1936/5/",
-    "reading": "でぃす"
-  },
-  {
-    "title": "Test Flight",
-    "category": [
-      "Chaos"
-    ],
-    "grade": 18,
-    "level": 18.5,
-    "bpm": "188",
-    "type": "maximum",
-    "jacket": "https://sdvxindex.com//img/1843_testflight_kuroma/jk_1843_1_b.webp",
-    "chartUrl": "https://sdvxindex.com/s/1843/5/",
-    "reading": "てすとふらいと"
-  },
-  {
-    "title": "灼熱Beach Side Bunny",
-    "category": [
-      "Chaos"
-    ],
-    "grade": 18,
-    "level": 18.6,
-    "bpm": "153",
-    "type": "exhaust",
-    "jacket": "https://sdvxindex.com//img/0698_syakunetsu_djmass/jk_0698_1_b.webp",
-    "chartUrl": "https://sdvxindex.com/s/0698/3/",
-    "reading": "しゃくねつびーちさいどばにー"
-  },
-  {
-    "title": "Vanishment for reconstruction",
-    "category": [
-      "Chaos"
-    ],
-    "grade": 18,
-    "level": 18.5,
-    "bpm": "158",
-    "type": "maximum",
-    "jacket": "https://sdvxindex.com//img/2309_vanishmentfor_kagetora/jk_2309_5_b.webp",
-    "chartUrl": "https://sdvxindex.com/s/2309/5/",
-    "reading": "ばにっしゅめんとふぉーりこんすとらくしょん"
-  },
-  {
-    "title": "Fl0ating:",
-    "category": [
-      "Chaos"
-    ],
-    "grade": 18,
-    "level": 18.6,
-    "bpm": "206",
-    "type": "maximum",
-    "jacket": "https://sdvxindex.com//img/1953_fl0ting_yuichinagao/jk_1953_1_b.webp",
-    "chartUrl": "https://sdvxindex.com/s/1953/5/",
-    "reading": "ふろーてぃんぐ"
-  },
-  {
-    "title": "Max Burning!!(GαineN Beyond yΩu Remix)",
-    "category": [
-      "Chaos"
-    ],
-    "grade": 18,
-    "level": 18.5,
-    "bpm": "200",
-    "type": "maximum",
-    "jacket": "https://sdvxindex.com//img/1993_makubarmx_gainen/jk_1993_1_b.webp",
-    "chartUrl": "https://sdvxindex.com/s/1993/5/",
-    "reading": "まっくすばーにんぐがいねんびよんどゆーりみっくす"
-  },
-  {
-    "title": "Over The Top",
-    "category": [
-      "Chaos"
-    ],
-    "grade": 18,
-    "level": 18.6,
-    "bpm": "205",
-    "type": "vivid",
-    "jacket": "https://sdvxindex.com//img/1554_overthetop_ashrount/jk_1554_1_b.webp",
-    "chartUrl": "https://sdvxindex.com/s/1554/4v/",
-    "reading": "おーゔぁーざとっぷ"
-  },
-  {
-    "title": "ちくたく2ちく2ぱ",
-    "category": [
-      "Chaos"
-    ],
-    "grade": 18,
-    "level": 18.6,
-    "bpm": "190",
-    "type": "maximum",
-    "jacket": "https://sdvxindex.com//img/2336_ticktackchikupa_risyuu/jk_2336_1_b.webp",
-    "chartUrl": "https://sdvxindex.com/s/2336/5/",
-    "reading": "ちくたくちくたくちくちくぱ"
-  },
-  {
-    "title": "Broken 8cmix",
-    "category": [
-      "Chaos"
-    ],
-    "grade": 18,
-    "level": 18.6,
-    "bpm": "150",
-    "type": "heavenly",
-    "jacket": "https://sdvxindex.com//img/0002_broken_iroha/jk_0002_4_b.webp",
-    "chartUrl": "https://sdvxindex.com/s/0002/4h/",
-    "reading": "ぶろーくんえいとしーみっくす"
-  },
-  {
-    "title": "// If Summer Ever Comes_",
-    "category": [
-      "Chaos"
-    ],
-    "grade": 19,
-    "level": 19.8,
-    "bpm": "155–185",
-    "type": "maximum",
-    "jacket": "https://sdvxindex.com//img/2254_ifsummerevercomes_kuroma/jk_2254_5_b.webp",
-    "chartUrl": "https://sdvxindex.com/s/2254/5/",
-    "reading": "いふさまーえゔぁーかむず"
-  },
-  {
-    "title": "混乱少女♥そふらんちゃん!!",
-    "category": [
-      "Chaos"
-    ],
-    "grade": 19,
-    "level": 19.6,
-    "bpm": "32–259",
-    "type": "exceed",
-    "jacket": "https://sdvxindex.com//img/0653_konransyojo_kameria/jk_0653_4_b.webp",
-    "chartUrl": "https://sdvxindex.com/s/0653/4x/",
-    "reading": "こんらんしょうじょそふらんちゃん"
-  },
-  {
-    "title": "2 Beasts Unchained",
-    "category": [
-      "Chaos"
-    ],
-    "grade": 19,
-    "level": 19.4,
-    "bpm": "175",
-    "type": "maximum",
-    "jacket": "https://sdvxindex.com//img/1847_2beasts_korskyooh/jk_1847_1_b.webp",
-    "chartUrl": "https://sdvxindex.com/s/1847/5/",
-    "reading": "とぅーびーすつあんちぇいんど"
   }
 ]
