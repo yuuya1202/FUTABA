@@ -1,7 +1,9 @@
 [
   {
     "title": "あいあむなんばーわんパトラちゃん様",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18.6,
     "bpm": "220",
@@ -12,7 +14,9 @@
   },
   {
     "title": "一水山風",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.3,
     "bpm": "888",
@@ -23,7 +27,9 @@
   },
   {
     "title": "Ice Fortress",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.7,
     "bpm": "185",
@@ -34,7 +40,9 @@
   },
   {
     "title": "3y3s (JMBS FUNKOT RMX)",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "198",
@@ -45,7 +53,9 @@
   },
   {
     "title": "アイの雫",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "261",
@@ -56,7 +66,9 @@
   },
   {
     "title": "I'm so Happy",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.3,
     "bpm": "181",
@@ -67,7 +79,14 @@
   },
   {
     "title": "Awakening",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19.6,
     "bpm": "208",
@@ -78,7 +97,14 @@
   },
   {
     "title": "OUTERHEΛVEN",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19.5,
     "bpm": "210",
@@ -89,7 +115,9 @@
   },
   {
     "title": "アキネイション",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "185",
@@ -100,7 +128,9 @@
   },
   {
     "title": "Akzeriyyuth",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18,
     "bpm": "195",
@@ -111,7 +141,9 @@
   },
   {
     "title": "Across the Starlight",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "170",
@@ -122,7 +154,14 @@
   },
   {
     "title": "αzalea",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19.2,
     "bpm": "99–198",
@@ -133,7 +172,9 @@
   },
   {
     "title": "ASGORE / アズゴア",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "114",
@@ -144,7 +185,9 @@
   },
   {
     "title": "Another Chapter",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "220",
@@ -155,7 +198,9 @@
   },
   {
     "title": "Afterimage d'automne",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "232",
@@ -166,7 +211,9 @@
   },
   {
     "title": "Absurd Gaff",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18.6,
     "bpm": "160",
@@ -177,7 +224,9 @@
   },
   {
     "title": "Apex of the World",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "169",
@@ -188,7 +237,9 @@
   },
   {
     "title": "APØCALYPSE RAY",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "212",
@@ -199,7 +250,9 @@
   },
   {
     "title": "Amazing Mirage",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.3,
     "bpm": "153",
@@ -210,7 +263,9 @@
   },
   {
     "title": "AYAKASHI",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "140",
@@ -221,7 +276,9 @@
   },
   {
     "title": "ARACHNE",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "179",
@@ -232,7 +289,9 @@
   },
   {
     "title": "Aliquam",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "70–158",
@@ -243,7 +302,9 @@
   },
   {
     "title": "Ars Magna",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "269",
@@ -254,7 +315,9 @@
   },
   {
     "title": "Altale",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "83–90",
@@ -265,7 +328,9 @@
   },
   {
     "title": "Ardenok",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "167",
@@ -276,7 +341,14 @@
   },
   {
     "title": "Ardenok",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19.4,
     "bpm": "167",
@@ -287,7 +359,9 @@
   },
   {
     "title": "ΑΩ",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18.3,
     "bpm": "208",
@@ -298,7 +372,9 @@
   },
   {
     "title": "ARROW RAIN feat. ayame",
-    "category": "ハンドトリップ",
+    "category": [
+      "ハンドトリップ"
+    ],
     "grade": 18,
     "level": 18.6,
     "bpm": "180",
@@ -309,7 +385,9 @@
   },
   {
     "title": "アワデコノヨヲ",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "212",
@@ -320,7 +398,9 @@
   },
   {
     "title": "Our Faith (Faithful MTL Remix)",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "185",
@@ -331,7 +411,9 @@
   },
   {
     "title": "and After the Merry BADEND",
-    "category": "トリッキー",
+    "category": [
+      "トリッキー"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "64–192",
@@ -342,7 +424,14 @@
   },
   {
     "title": "Ambivalent Vermilia",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19.2,
     "bpm": "185",
@@ -353,7 +442,9 @@
   },
   {
     "title": "Unleashed Redness",
-    "category": "ハンドトリップ",
+    "category": [
+      "ハンドトリップ"
+    ],
     "grade": 18,
     "level": 18.6,
     "bpm": "185",
@@ -364,7 +455,9 @@
   },
   {
     "title": "Λkasha",
-    "category": "トリッキー",
+    "category": [
+      "トリッキー"
+    ],
     "grade": 18,
     "level": 18.7,
     "bpm": "180",
@@ -375,7 +468,9 @@
   },
   {
     "title": "Archangelio",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18.6,
     "bpm": "300",
@@ -386,7 +481,9 @@
   },
   {
     "title": "イグジスタンス",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "200",
@@ -397,7 +494,9 @@
   },
   {
     "title": "XΛLT=ØVER",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "321",
@@ -408,7 +507,9 @@
   },
   {
     "title": "Inevitable Magic",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 18,
     "level": 18.1,
     "bpm": "170",
@@ -419,7 +520,9 @@
   },
   {
     "title": "Innocent Tempest",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "180",
@@ -430,7 +533,9 @@
   },
   {
     "title": "If",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "170",
@@ -441,7 +546,9 @@
   },
   {
     "title": "Iridescent Clouds",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "185",
@@ -452,7 +559,9 @@
   },
   {
     "title": "Inscape",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "200",
@@ -463,7 +572,9 @@
   },
   {
     "title": "インドア系ならトラックメイカー",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "128",
@@ -474,7 +585,9 @@
   },
   {
     "title": "INFINITY OVERDRIVE",
-    "category": "ハンドトリップ",
+    "category": [
+      "ハンドトリップ"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "185",
@@ -485,7 +598,9 @@
   },
   {
     "title": "Imperator",
-    "category": "ハンドトリップ",
+    "category": [
+      "ハンドトリップ"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "215",
@@ -496,7 +611,14 @@
   },
   {
     "title": "Immortal saga",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19,
     "bpm": "205",
@@ -507,7 +629,9 @@
   },
   {
     "title": "#Evil_Signs_of_Bloodlines",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "146",
@@ -518,7 +642,9 @@
   },
   {
     "title": "Wish upon Twin Stars",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18.7,
     "bpm": "200",
@@ -529,7 +655,9 @@
   },
   {
     "title": "Witch in Sweetsland",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "185",
@@ -540,7 +668,9 @@
   },
   {
     "title": "We Are All The Dreamer",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 18,
     "level": 18.2,
     "bpm": "148",
@@ -551,7 +681,9 @@
   },
   {
     "title": "werewolf howls.",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "222",
@@ -562,7 +694,9 @@
   },
   {
     "title": "ウサテイ",
-    "category": "ハンドトリップ",
+    "category": [
+      "ハンドトリップ"
+    ],
     "grade": 18,
     "level": 18,
     "bpm": "190",
@@ -573,7 +707,9 @@
   },
   {
     "title": "雲海",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "160",
@@ -584,7 +720,9 @@
   },
   {
     "title": "永遠に幸せになる方法、見つけました。",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "128",
@@ -595,7 +733,9 @@
   },
   {
     "title": "HP:1",
-    "category": "トリッキー",
+    "category": [
+      "トリッキー"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "11–193",
@@ -606,7 +746,9 @@
   },
   {
     "title": "∞vitUniverse",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.3,
     "bpm": "234",
@@ -617,7 +759,9 @@
   },
   {
     "title": "eXtridia",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "136",
@@ -628,7 +772,9 @@
   },
   {
     "title": "EGG",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "196",
@@ -639,7 +785,9 @@
   },
   {
     "title": "EBONY & IVORY",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "113–170",
@@ -650,7 +798,9 @@
   },
   {
     "title": "ΣMERGENCY CODΣ",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.3,
     "bpm": "205",
@@ -661,7 +811,9 @@
   },
   {
     "title": "L9",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18.4,
     "bpm": "53–128",
@@ -672,7 +824,9 @@
   },
   {
     "title": "eternite",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.3,
     "bpm": "190",
@@ -683,7 +837,9 @@
   },
   {
     "title": "Elemental Creation (kamome sano Remix)",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.7,
     "bpm": "128–256",
@@ -694,7 +850,14 @@
   },
   {
     "title": "EROICA",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19.7,
     "bpm": "200",
@@ -705,7 +868,9 @@
   },
   {
     "title": "炎夏の音",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "183",
@@ -716,7 +881,9 @@
   },
   {
     "title": "ΛNXIENT:LEGΛXIEZ",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.7,
     "bpm": "261",
@@ -727,7 +894,9 @@
   },
   {
     "title": "Angelic Jelly",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18.3,
     "bpm": "200",
@@ -738,7 +907,9 @@
   },
   {
     "title": "Enter The Rave",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "160",
@@ -749,7 +920,9 @@
   },
   {
     "title": "ENDYMION",
-    "category": "トリッキー",
+    "category": [
+      "トリッキー"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "110–880",
@@ -760,7 +933,9 @@
   },
   {
     "title": "Entropic EnĤαncemEnt",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "254",
@@ -771,7 +946,9 @@
   },
   {
     "title": "ENDGAME",
-    "category": "ハンドトリップ",
+    "category": [
+      "ハンドトリップ"
+    ],
     "grade": 18,
     "level": 18.7,
     "bpm": "222",
@@ -782,7 +959,9 @@
   },
   {
     "title": "#Endroll",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 18,
     "level": 18.4,
     "bpm": "170",
@@ -793,7 +972,9 @@
   },
   {
     "title": "Everlasting Message",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "230",
@@ -804,7 +985,14 @@
   },
   {
     "title": "Everlasting Message",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19.3,
     "bpm": "230",
@@ -815,7 +1003,9 @@
   },
   {
     "title": "ØƵ",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.6,
     "bpm": "90–350",
@@ -826,7 +1016,9 @@
   },
   {
     "title": "Opium and Purple haze",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 18,
     "level": 18,
     "bpm": "165",
@@ -837,7 +1029,9 @@
   },
   {
     "title": "Oriens",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "140–185",
@@ -848,7 +1042,14 @@
   },
   {
     "title": "†:OLPHEUX:†",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19.4,
     "bpm": "276",
@@ -859,7 +1060,9 @@
   },
   {
     "title": "ØVER《Δ》",
-    "category": "トリッキー",
+    "category": [
+      "トリッキー"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "100–573",
@@ -870,7 +1073,9 @@
   },
   {
     "title": "All We Need is HAPPY END!!!",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "260",
@@ -881,7 +1086,9 @@
   },
   {
     "title": "All for One",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.8,
     "bpm": "185",
@@ -892,7 +1099,9 @@
   },
   {
     "title": "Chaotic Romance",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "200",
@@ -903,7 +1112,9 @@
   },
   {
     "title": "蛇神",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18.4,
     "bpm": "170",
@@ -914,7 +1125,9 @@
   },
   {
     "title": "過食性:アイドル症候群",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "200",
@@ -925,7 +1138,9 @@
   },
   {
     "title": "Katharsis",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18.6,
     "bpm": "140–280",
@@ -936,7 +1151,9 @@
   },
   {
     "title": "異次元の孤独～カナタノキミヘ～",
-    "category": "ハンドトリップ",
+    "category": [
+      "ハンドトリップ"
+    ],
     "grade": 18,
     "level": 18.6,
     "bpm": "250",
@@ -947,7 +1164,9 @@
   },
   {
     "title": "C18H27NO3",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 18,
     "level": 18.1,
     "bpm": "210",
@@ -958,7 +1177,9 @@
   },
   {
     "title": "Calamity Tempest",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "194",
@@ -969,7 +1190,9 @@
   },
   {
     "title": "神獄烙桜",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18.6,
     "bpm": "258",
@@ -980,7 +1203,9 @@
   },
   {
     "title": "神凪",
-    "category": "トリッキー",
+    "category": [
+      "トリッキー"
+    ],
     "grade": 18,
     "level": 18.8,
     "bpm": "185",
@@ -991,7 +1216,14 @@
   },
   {
     "title": "Ganymede kamome mix",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19.3,
     "bpm": "200",
@@ -1002,7 +1234,9 @@
   },
   {
     "title": "GERBERA",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.8,
     "bpm": "205",
@@ -1013,7 +1247,9 @@
   },
   {
     "title": "KISKIL-LILLA",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.6,
     "bpm": "280",
@@ -1024,7 +1260,9 @@
   },
   {
     "title": "君は Fantasista",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "220",
@@ -1035,7 +1273,9 @@
   },
   {
     "title": "Carry Me Away",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "175",
@@ -1046,7 +1286,9 @@
   },
   {
     "title": "Candy Colored Hearts",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "193",
@@ -1057,7 +1299,9 @@
   },
   {
     "title": "Cumulonimbus",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "190",
@@ -1068,7 +1312,9 @@
   },
   {
     "title": "キュリオシティ",
-    "category": "トリッキー",
+    "category": [
+      "トリッキー"
+    ],
     "grade": 18,
     "level": 18.9,
     "bpm": "193",
@@ -1079,7 +1325,9 @@
   },
   {
     "title": "CUTIE☆EX-DREAM",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "188",
@@ -1090,7 +1338,9 @@
   },
   {
     "title": "gigadelic(m3rkAb4# R3m!x)",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "180–916",
@@ -1101,7 +1351,9 @@
   },
   {
     "title": "GaLaXyEggPlanT",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.3,
     "bpm": "240",
@@ -1112,7 +1364,9 @@
   },
   {
     "title": "GALAXY BURST",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "201",
@@ -1123,7 +1377,9 @@
   },
   {
     "title": "CLOUDS FLYER -sdvx edit-",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "177",
@@ -1134,7 +1390,9 @@
   },
   {
     "title": "Cloud 9",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "153",
@@ -1145,7 +1403,9 @@
   },
   {
     "title": "Crack Traxxxx",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.4,
     "bpm": "220",
@@ -1156,7 +1416,9 @@
   },
   {
     "title": "Clash of swords",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "229",
@@ -1167,7 +1429,9 @@
   },
   {
     "title": "Crystalia",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18.2,
     "bpm": "270",
@@ -1178,7 +1442,9 @@
   },
   {
     "title": "crazy cinema story",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.8,
     "bpm": "137–150",
@@ -1189,7 +1455,9 @@
   },
   {
     "title": "Xronièr",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.8,
     "bpm": "234",
@@ -1200,7 +1468,9 @@
   },
   {
     "title": "XHRONOXAPSULΞ",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.7,
     "bpm": "277",
@@ -1211,7 +1481,9 @@
   },
   {
     "title": "Kool Awesome Croon",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 18,
     "level": 18.3,
     "bpm": "185",
@@ -1222,7 +1494,9 @@
   },
   {
     "title": "good high school",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "150",
@@ -1233,7 +1507,9 @@
   },
   {
     "title": "Grand Chariot",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "191",
@@ -1244,7 +1520,9 @@
   },
   {
     "title": "Glitch N Ride",
-    "category": "トリッキー",
+    "category": [
+      "トリッキー"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "30–300",
@@ -1255,7 +1533,9 @@
   },
   {
     "title": "Gryphone",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "175",
@@ -1266,7 +1546,14 @@
   },
   {
     "title": "Gryphone",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19.5,
     "bpm": "175",
@@ -1277,7 +1564,9 @@
   },
   {
     "title": "CAKE,Cake'n Cake!",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.2,
     "bpm": "186",
@@ -1288,7 +1577,9 @@
   },
   {
     "title": "ゲキツイムラサ",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "185",
@@ -1299,7 +1590,9 @@
   },
   {
     "title": "GEROL (Yooh Remix)",
-    "category": "ハンドトリップ",
+    "category": [
+      "ハンドトリップ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "145",
@@ -1310,7 +1603,9 @@
   },
   {
     "title": "幻影ノ消失",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "160",
@@ -1321,7 +1616,9 @@
   },
   {
     "title": "Gate of Atlantis",
-    "category": "トリッキー",
+    "category": [
+      "トリッキー"
+    ],
     "grade": 18,
     "level": 18.7,
     "bpm": "8–888",
@@ -1332,7 +1629,9 @@
   },
   {
     "title": "Gate of Atlantis (Vocal ∞ Mix)",
-    "category": "トリッキー",
+    "category": [
+      "トリッキー"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "8–240",
@@ -1343,7 +1642,14 @@
   },
   {
     "title": "黒蝶のワルツ",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19.7,
     "bpm": "108–160",
@@ -1354,7 +1660,9 @@
   },
   {
     "title": "孤月群雲に沈む",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "194",
@@ -1365,7 +1673,9 @@
   },
   {
     "title": "こちら、幸福安心委員会です。",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "128",
@@ -1376,7 +1686,9 @@
   },
   {
     "title": "€omet popcorn",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18,
     "bpm": "244",
@@ -1387,7 +1699,9 @@
   },
   {
     "title": "continew",
-    "category": "トリッキー",
+    "category": [
+      "トリッキー"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "64–256",
@@ -1398,7 +1712,9 @@
   },
   {
     "title": "Completeness Under Incompleteness",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.7,
     "bpm": "194",
@@ -1409,7 +1725,9 @@
   },
   {
     "title": "CODE -CRiMSON-",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "167",
@@ -1420,7 +1738,9 @@
   },
   {
     "title": "Coldlapse",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "200",
@@ -1431,7 +1751,9 @@
   },
   {
     "title": "Golden Rotation",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "177",
@@ -1442,7 +1764,9 @@
   },
   {
     "title": "最小三倍完全数",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 18,
     "level": 18.1,
     "bpm": "220",
@@ -1453,7 +1777,9 @@
   },
   {
     "title": "最果ての勇者にラブソングを",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18.6,
     "bpm": "268",
@@ -1464,7 +1790,9 @@
   },
   {
     "title": "Xibercannon",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "190",
@@ -1475,7 +1803,9 @@
   },
   {
     "title": "Cy-Bird",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "160",
@@ -1486,7 +1816,9 @@
   },
   {
     "title": "Sounds Of Summer",
-    "category": "ハンドトリップ",
+    "category": [
+      "ハンドトリップ"
+    ],
     "grade": 18,
     "level": 18.3,
     "bpm": "175",
@@ -1497,7 +1829,14 @@
   },
   {
     "title": "逆月",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19,
     "bpm": "280",
@@ -1508,7 +1847,10 @@
   },
   {
     "title": "SACRIFICE feat. ayame",
-    "category": "ハンドトリップ",
+    "category": [
+      "ハンドトリップ",
+      "Chaos"
+    ],
     "grade": 18,
     "level": 18.4,
     "bpm": "180",
@@ -1519,7 +1861,14 @@
   },
   {
     "title": "SuddeИDeath",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19.1,
     "bpm": "236",
@@ -1530,7 +1879,9 @@
   },
   {
     "title": "Circumzenith Arc",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "191",
@@ -1541,7 +1892,9 @@
   },
   {
     "title": "Circulator",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "165",
@@ -1552,7 +1905,9 @@
   },
   {
     "title": "The star in eclipse",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18.2,
     "bpm": "220",
@@ -1563,7 +1918,9 @@
   },
   {
     "title": "The setting sun",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "140",
@@ -1574,7 +1931,9 @@
   },
   {
     "title": "The Formula",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.1,
     "bpm": "144",
@@ -1585,7 +1944,14 @@
   },
   {
     "title": "幸せになれる隠しコマンドがあるらしい",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19.1,
     "bpm": "142",
@@ -1596,7 +1962,9 @@
   },
   {
     "title": "666",
-    "category": "トリッキー",
+    "category": [
+      "トリッキー"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "666",
@@ -1607,7 +1975,9 @@
   },
   {
     "title": "灼ナル刃、破カヰ譜",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18.4,
     "bpm": "165",
@@ -1618,7 +1988,9 @@
   },
   {
     "title": "Chat perché",
-    "category": "ハンドトリップ",
+    "category": [
+      "ハンドトリップ"
+    ],
     "grade": 18,
     "level": 18.4,
     "bpm": "210",
@@ -1629,7 +2001,9 @@
   },
   {
     "title": "SHARK ATTACK",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 18,
     "level": 18.4,
     "bpm": "165",
@@ -1640,7 +2014,9 @@
   },
   {
     "title": "SHARK IMPACT",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 18,
     "level": 18.3,
     "bpm": "165",
@@ -1651,7 +2027,9 @@
   },
   {
     "title": "Sharkbait",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "155",
@@ -1662,7 +2040,9 @@
   },
   {
     "title": "祝福の色彩は想い結ぶ君たち迄",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.6,
     "bpm": "95–235",
@@ -1673,7 +2053,9 @@
   },
   {
     "title": "少年は空を辿る Prog Piano Remix",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "140",
@@ -1684,7 +2066,9 @@
   },
   {
     "title": "蝕",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18.7,
     "bpm": "220",
@@ -1695,7 +2079,9 @@
   },
   {
     "title": "Xinca",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "235",
@@ -1706,7 +2092,14 @@
   },
   {
     "title": "Synthesis.",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19.2,
     "bpm": "180",
@@ -1717,7 +2110,9 @@
   },
   {
     "title": "神罰",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.8,
     "bpm": "201",
@@ -1728,7 +2123,9 @@
   },
   {
     "title": "神話に芽吹く",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18.9,
     "bpm": "197",
@@ -1739,7 +2136,9 @@
   },
   {
     "title": "She is my wife すーぱーアイドル☆ミツル子Remixちゃん",
-    "category": "ハンドトリップ",
+    "category": [
+      "ハンドトリップ"
+    ],
     "grade": 18,
     "level": 18.6,
     "bpm": "85–370",
@@ -1750,7 +2149,9 @@
   },
   {
     "title": "Secret Traveler -MeniRemix-",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "131",
@@ -1761,7 +2162,9 @@
   },
   {
     "title": "翠雨の祷",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.1,
     "bpm": "197",
@@ -1772,7 +2175,9 @@
   },
   {
     "title": "Scat Jazz Dance",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 18,
     "level": 18.8,
     "bpm": "162",
@@ -1783,7 +2188,9 @@
   },
   {
     "title": "Star☆Beat",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.1,
     "bpm": "185",
@@ -1794,7 +2201,9 @@
   },
   {
     "title": "STIGMA",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18.3,
     "bpm": "194",
@@ -1805,7 +2214,9 @@
   },
   {
     "title": "Zt!ri△",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "260",
@@ -1816,7 +2227,14 @@
   },
   {
     "title": "Zt!ri△",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19.5,
     "bpm": "260",
@@ -1827,7 +2245,9 @@
   },
   {
     "title": "ステラレギア",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "130",
@@ -1838,7 +2258,9 @@
   },
   {
     "title": "stellar rain",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.4,
     "bpm": "148",
@@ -1849,7 +2271,9 @@
   },
   {
     "title": "STULTI",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.7,
     "bpm": "90–182",
@@ -1860,7 +2284,9 @@
   },
   {
     "title": "Stleq",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "200",
@@ -1871,7 +2297,9 @@
   },
   {
     "title": "すべてを賭して",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.9,
     "bpm": "228–278",
@@ -1882,7 +2310,9 @@
   },
   {
     "title": "Smoked Turkey Rag",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "150",
@@ -1893,7 +2323,14 @@
   },
   {
     "title": "Superstar!",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19.5,
     "bpm": "280",
@@ -1904,7 +2341,9 @@
   },
   {
     "title": "星界のアルペジオ",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18,
     "bpm": "200",
@@ -1915,7 +2354,9 @@
   },
   {
     "title": "星座が恋した瞬間を。",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "186",
@@ -1926,7 +2367,14 @@
   },
   {
     "title": "セイレーン ～悲壮の竪琴～",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19.4,
     "bpm": "93–214",
@@ -1937,7 +2385,9 @@
   },
   {
     "title": "世界はネコのもの",
-    "category": "ハンドトリップ",
+    "category": [
+      "ハンドトリップ"
+    ],
     "grade": 18,
     "level": 18.3,
     "bpm": "157",
@@ -1948,7 +2398,9 @@
   },
   {
     "title": "雪月花 -さわわRemix-",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "188",
@@ -1959,7 +2411,9 @@
   },
   {
     "title": "Seraphim",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.3,
     "bpm": "186",
@@ -1970,7 +2424,15 @@
   },
   {
     "title": "Xeno Gravity",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク",
+      "Chaos"
+    ],
     "grade": 19,
     "level": 19.9,
     "bpm": "286",
@@ -1981,7 +2443,14 @@
   },
   {
     "title": "Xéroa",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19.6,
     "bpm": "301",
@@ -1992,7 +2461,9 @@
   },
   {
     "title": "そして紫の幻想曲は全てを受け入れる",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "174",
@@ -2003,7 +2474,9 @@
   },
   {
     "title": "TYCOON",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "170",
@@ -2014,7 +2487,9 @@
   },
   {
     "title": "Typhoon Craaash!!",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.3,
     "bpm": "172",
@@ -2025,7 +2500,9 @@
   },
   {
     "title": "竹",
-    "category": "トリッキー",
+    "category": [
+      "トリッキー"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "5–315",
@@ -2036,7 +2513,9 @@
   },
   {
     "title": "大宇宙ステージ奈落変",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.6,
     "bpm": "199",
@@ -2047,7 +2526,9 @@
   },
   {
     "title": "Dynasty",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "189",
@@ -2058,7 +2539,9 @@
   },
   {
     "title": "Down with your Love",
-    "category": "トリッキー",
+    "category": [
+      "トリッキー"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "220",
@@ -2069,7 +2552,9 @@
   },
   {
     "title": "打打打打打打打打打打",
-    "category": "トリッキー",
+    "category": [
+      "トリッキー"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "156",
@@ -2080,7 +2565,9 @@
   },
   {
     "title": "Dark Matter",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "205",
@@ -2091,7 +2578,9 @@
   },
   {
     "title": "チクサクコールが懐かしい",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "109–194",
@@ -2102,7 +2591,9 @@
   },
   {
     "title": "Chakra",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "165",
@@ -2113,7 +2604,9 @@
   },
   {
     "title": "charm♡you",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "147",
@@ -2124,7 +2617,9 @@
   },
   {
     "title": "Chewingood!!!",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "190",
@@ -2135,7 +2630,9 @@
   },
   {
     "title": "超越してしまった彼女と其を生み落した理由",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "178",
@@ -2146,7 +2643,9 @@
   },
   {
     "title": "CHOVERY GOOSE!!!",
-    "category": "ハンドトリップ",
+    "category": [
+      "ハンドトリップ"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "180",
@@ -2157,7 +2656,9 @@
   },
   {
     "title": "ツマミ戦隊 タテレンジャー",
-    "category": "トリッキー",
+    "category": [
+      "トリッキー"
+    ],
     "grade": 18,
     "level": 18.8,
     "bpm": "95–380",
@@ -2168,7 +2669,14 @@
   },
   {
     "title": "Titanomachia",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19.3,
     "bpm": "165",
@@ -2179,7 +2687,9 @@
   },
   {
     "title": "Tickled Pink",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18.3,
     "bpm": "180",
@@ -2190,7 +2700,9 @@
   },
   {
     "title": "take a step forward",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "190",
@@ -2201,7 +2713,9 @@
   },
   {
     "title": "テトリス",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18.2,
     "bpm": "170",
@@ -2212,7 +2726,9 @@
   },
   {
     "title": "天鯨譚",
-    "category": "トリッキー",
+    "category": [
+      "トリッキー"
+    ],
     "grade": 18,
     "level": 18.8,
     "bpm": "215",
@@ -2223,7 +2739,14 @@
   },
   {
     "title": "Xb10r",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19.7,
     "bpm": "200",
@@ -2234,7 +2757,9 @@
   },
   {
     "title": "DIABLOSIS::Nāga",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "200",
@@ -2245,7 +2770,9 @@
   },
   {
     "title": "Dear Deer",
-    "category": "ハンドトリップ",
+    "category": [
+      "ハンドトリップ"
+    ],
     "grade": 18,
     "level": 18.3,
     "bpm": "185",
@@ -2256,7 +2783,9 @@
   },
   {
     "title": "Decretum",
-    "category": "ハンドトリップ",
+    "category": [
+      "ハンドトリップ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "98–197",
@@ -2267,7 +2796,9 @@
   },
   {
     "title": "Distorted Floor",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "95–180",
@@ -2278,7 +2809,9 @@
   },
   {
     "title": "Di-Da-De-Doo",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 18,
     "level": 18.4,
     "bpm": "144",
@@ -2289,7 +2822,9 @@
   },
   {
     "title": "Divine Ether",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "187",
@@ -2300,7 +2835,9 @@
   },
   {
     "title": "Divine's:Bugscript",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.8,
     "bpm": "230",
@@ -2311,7 +2848,9 @@
   },
   {
     "title": "Defining Future",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.2,
     "bpm": "200",
@@ -2322,7 +2861,9 @@
   },
   {
     "title": "Demise Quartet",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "200",
@@ -2333,7 +2874,9 @@
   },
   {
     "title": "Deep tenDon Reflex",
-    "category": "ハンドトリップ",
+    "category": [
+      "ハンドトリップ"
+    ],
     "grade": 18,
     "level": 18.3,
     "bpm": "180",
@@ -2344,7 +2887,9 @@
   },
   {
     "title": "DEUX EX MĀXHINĀ",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "257",
@@ -2355,7 +2900,9 @@
   },
   {
     "title": "Destroy",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "195",
@@ -2366,7 +2913,9 @@
   },
   {
     "title": "DEADLOCK XXX",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "222",
@@ -2377,7 +2926,9 @@
   },
   {
     "title": "Dement ~After Legend~",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "210",
@@ -2388,7 +2939,9 @@
   },
   {
     "title": "Dualive",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "190",
@@ -2399,7 +2952,9 @@
   },
   {
     "title": "デュアルメモリ",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "162",
@@ -2410,7 +2965,9 @@
   },
   {
     "title": "toy boxer",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "190",
@@ -2421,7 +2978,9 @@
   },
   {
     "title": "Twinkle Rookie",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18.2,
     "bpm": "205",
@@ -2432,7 +2991,9 @@
   },
   {
     "title": "2 Beasts Unchained",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "175",
@@ -2443,7 +3004,9 @@
   },
   {
     "title": "常夏！！クリスタライズ・シャーベット",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "152",
@@ -2454,7 +3017,9 @@
   },
   {
     "title": "tricky trick",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.2,
     "bpm": "165",
@@ -2465,7 +3030,9 @@
   },
   {
     "title": "Dogeza Stairs",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "190",
@@ -2476,7 +3043,9 @@
   },
   {
     "title": "Dot to Dot",
-    "category": "ハンドトリップ",
+    "category": [
+      "ハンドトリップ"
+    ],
     "grade": 18,
     "level": 18,
     "bpm": "174",
@@ -2487,7 +3056,9 @@
   },
   {
     "title": "Doppelganger",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18.8,
     "bpm": "280",
@@ -2498,7 +3069,9 @@
   },
   {
     "title": "dreamin' feat.Ryu☆",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "156",
@@ -2509,7 +3082,9 @@
   },
   {
     "title": "Dreadnought",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.6,
     "bpm": "96–384",
@@ -2520,7 +3095,9 @@
   },
   {
     "title": "ドーパミン",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.6,
     "bpm": "200",
@@ -2531,7 +3108,9 @@
   },
   {
     "title": "Dawn of Asia(Alkome Remix)",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "188",
@@ -2542,7 +3121,9 @@
   },
   {
     "title": "9TH5IN",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "222",
@@ -2553,7 +3134,9 @@
   },
   {
     "title": "人形裁判 -THIRD IMPACT-",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "198",
@@ -2564,7 +3147,9 @@
   },
   {
     "title": "ИADIR",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.4,
     "bpm": "190",
@@ -2575,7 +3160,9 @@
   },
   {
     "title": "NEON LOVE♥POTION!!!",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "180",
@@ -2586,7 +3173,9 @@
   },
   {
     "title": "ИEXTAGE",
-    "category": "ハンドトリップ",
+    "category": [
+      "ハンドトリップ"
+    ],
     "grade": 18,
     "level": 18.8,
     "bpm": "190",
@@ -2597,7 +3186,9 @@
   },
   {
     "title": "NEMSYS ARENA World Hexathlon",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.7,
     "bpm": "190",
@@ -2608,7 +3199,9 @@
   },
   {
     "title": "neu BSP style",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "130–199",
@@ -2619,7 +3212,9 @@
   },
   {
     "title": "Nofram",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "132",
@@ -2630,7 +3225,14 @@
   },
   {
     "title": "No→to",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19.5,
     "bpm": "213",
@@ -2641,7 +3243,9 @@
   },
   {
     "title": "ハッピーエンド",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "230–267",
@@ -2652,7 +3256,9 @@
   },
   {
     "title": "Happy Sensation",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "180",
@@ -2663,7 +3269,9 @@
   },
   {
     "title": "春告胡蝶",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.3,
     "bpm": "202",
@@ -2674,7 +3282,9 @@
   },
   {
     "title": "HAVOX",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.7,
     "bpm": "210",
@@ -2685,7 +3295,9 @@
   },
   {
     "title": "HAELE III ~Angel Worlds~",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.7,
     "bpm": "185",
@@ -2696,7 +3308,9 @@
   },
   {
     "title": "バイナリスター",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "135",
@@ -2707,7 +3321,9 @@
   },
   {
     "title": "爆烈歓迎♪エクストリーム飲茶旋風脚ッ!!",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18.4,
     "bpm": "94–188",
@@ -2718,7 +3334,14 @@
   },
   {
     "title": "Baphomet",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19.7,
     "bpm": "266",
@@ -2729,7 +3352,9 @@
   },
   {
     "title": "Bangin' Burst",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "234",
@@ -2740,7 +3365,14 @@
   },
   {
     "title": "Bangin' Burst",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19.5,
     "bpm": "234",
@@ -2751,7 +3383,15 @@
   },
   {
     "title": "Burst Λnd reBoost",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク",
+      "Chaos"
+    ],
     "grade": 19,
     "level": 19.4,
     "bpm": "203–232",
@@ -2762,7 +3402,9 @@
   },
   {
     "title": "Verse IV",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "212",
@@ -2773,7 +3415,9 @@
   },
   {
     "title": "パ→ピ→プ→Yeah!",
-    "category": "トリッキー",
+    "category": [
+      "トリッキー"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "160",
@@ -2784,7 +3428,9 @@
   },
   {
     "title": "緋色月下、狂咲ノ絶 (nayuta 2017 ver)",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 18,
     "level": 18.6,
     "bpm": "150",
@@ -2795,7 +3441,9 @@
   },
   {
     "title": "120秒のエンドロール",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "219",
@@ -2806,7 +3454,9 @@
   },
   {
     "title": "び",
-    "category": "トリッキー",
+    "category": [
+      "トリッキー"
+    ],
     "grade": 18,
     "level": 18.8,
     "bpm": "169",
@@ -2817,7 +3467,9 @@
   },
   {
     "title": "BEAST BASS BOMB",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 18,
     "level": 18.3,
     "bpm": "170",
@@ -2828,7 +3480,9 @@
   },
   {
     "title": "BEAT-NEW-WORLD",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "190",
@@ -2839,7 +3493,9 @@
   },
   {
     "title": "B.B.K.K.B.K.K.",
-    "category": "ハンドトリップ",
+    "category": [
+      "ハンドトリップ"
+    ],
     "grade": 18,
     "level": 18.1,
     "bpm": "170",
@@ -2850,7 +3506,9 @@
   },
   {
     "title": "pique",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.7,
     "bpm": "162",
@@ -2861,7 +3519,9 @@
   },
   {
     "title": "Pure Evil-Aya2g Drm'n Tech Rmx-",
-    "category": "ハンドトリップ",
+    "category": [
+      "ハンドトリップ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "190",
@@ -2872,7 +3532,9 @@
   },
   {
     "title": "Pure Evil (Kobaryo FTN-Remix)",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.2,
     "bpm": "380",
@@ -2883,7 +3545,9 @@
   },
   {
     "title": "Pieces of a Dream",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "202",
@@ -2894,7 +3558,9 @@
   },
   {
     "title": "Fire Strike",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "158",
@@ -2905,7 +3571,9 @@
   },
   {
     "title": "Firestorm",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "177",
@@ -2916,7 +3584,9 @@
   },
   {
     "title": "Fáfnir",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "196",
@@ -2927,7 +3597,9 @@
   },
   {
     "title": "Verflucht",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.9,
     "bpm": "180",
@@ -2938,7 +3610,9 @@
   },
   {
     "title": "Fun walk!!",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "170",
@@ -2949,7 +3623,9 @@
   },
   {
     "title": "FAR GONE",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 18,
     "level": 18.6,
     "bpm": "160",
@@ -2960,7 +3636,14 @@
   },
   {
     "title": "Fiat Lux",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19.7,
     "bpm": "200",
@@ -2971,7 +3654,9 @@
   },
   {
     "title": "FIN4LE ～終止線の彼方へ～",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.7,
     "bpm": "256",
@@ -2982,7 +3667,9 @@
   },
   {
     "title": "#FairyJoke #SDVX_Edit",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "160",
@@ -2993,7 +3680,9 @@
   },
   {
     "title": "#Fairy_dancing_in_lake",
-    "category": "トリッキー",
+    "category": [
+      "トリッキー"
+    ],
     "grade": 18,
     "level": 18.6,
     "bpm": "142",
@@ -3004,7 +3693,9 @@
   },
   {
     "title": "Fegrix",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "175",
@@ -3015,7 +3706,9 @@
   },
   {
     "title": "False Cross",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "162",
@@ -3026,7 +3719,9 @@
   },
   {
     "title": "Follow Tomorrow",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "140",
@@ -3037,7 +3732,9 @@
   },
   {
     "title": "For.*tune",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "205",
@@ -3048,7 +3745,10 @@
   },
   {
     "title": "FUJIMORI -祭- FESTIVAL",
-    "category": "ハンドトリップ",
+    "category": [
+      "ハンドトリップ",
+      "Chaos"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "158",
@@ -3059,7 +3759,14 @@
   },
   {
     "title": "Fly Like You",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19.7,
     "bpm": "196–286",
@@ -3070,7 +3777,9 @@
   },
   {
     "title": "FLOWER REDALiCE Remix",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18.6,
     "bpm": "180",
@@ -3081,7 +3790,14 @@
   },
   {
     "title": "FLügeL《Λrp:ΣggyØ》",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19.7,
     "bpm": "120–240",
@@ -3092,7 +3808,9 @@
   },
   {
     "title": "Blastix Riotz",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.7,
     "bpm": "256",
@@ -3103,7 +3821,9 @@
   },
   {
     "title": "Black Out",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18.6,
     "bpm": "165",
@@ -3114,7 +3834,9 @@
   },
   {
     "title": "BLACK JACKAL",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "150",
@@ -3125,7 +3847,9 @@
   },
   {
     "title": "Blφφdy Cφncertφ",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "210",
@@ -3136,7 +3860,9 @@
   },
   {
     "title": "Blue Diamond",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "272",
@@ -3147,7 +3873,9 @@
   },
   {
     "title": "Blue Forest(NightBounce Remix)",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "132",
@@ -3158,7 +3886,9 @@
   },
   {
     "title": "Blue Forest (Prog Keys Remix)",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "150",
@@ -3169,7 +3899,9 @@
   },
   {
     "title": "Bl∞min'",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "117–234",
@@ -3180,7 +3912,9 @@
   },
   {
     "title": "Break Through Δpex",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.6,
     "bpm": "190–210",
@@ -3191,7 +3925,9 @@
   },
   {
     "title": "Breakneck Pursuit",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "210",
@@ -3202,7 +3938,14 @@
   },
   {
     "title": "Breakneck Pursuit",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19.2,
     "bpm": "210",
@@ -3213,7 +3956,9 @@
   },
   {
     "title": "BLAZE∞BREEZE",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "175",
@@ -3224,7 +3969,9 @@
   },
   {
     "title": "Blossom",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18,
     "bpm": "175",
@@ -3235,7 +3982,9 @@
   },
   {
     "title": "Petit espoir",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.4,
     "bpm": "222",
@@ -3246,7 +3995,9 @@
   },
   {
     "title": "プラネタジャーニー",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "140",
@@ -3257,7 +4008,14 @@
   },
   {
     "title": "Preserved Valkyria",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19.2,
     "bpm": "115–220",
@@ -3268,7 +4026,9 @@
   },
   {
     "title": "Hexennacht",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "165",
@@ -3279,7 +4039,9 @@
   },
   {
     "title": "Heavenly Adventure",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "156",
@@ -3290,7 +4052,9 @@
   },
   {
     "title": "Hellfire",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "176",
@@ -3301,7 +4065,9 @@
   },
   {
     "title": "Berry Go!!",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "175",
@@ -3312,7 +4078,14 @@
   },
   {
     "title": "BELOBOG",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19.4,
     "bpm": "200",
@@ -3323,7 +4096,9 @@
   },
   {
     "title": "Pet Peeve",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "140",
@@ -3334,7 +4109,9 @@
   },
   {
     "title": "蓬莱フェスティボー",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "180",
@@ -3345,7 +4122,9 @@
   },
   {
     "title": "Hoshizora Illumination",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "210",
@@ -3356,7 +4135,9 @@
   },
   {
     "title": "星の詩",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "67",
@@ -3367,7 +4148,9 @@
   },
   {
     "title": "星の透る夏空に願う",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.6,
     "bpm": "210",
@@ -3378,7 +4161,9 @@
   },
   {
     "title": "ぼくらしかしらない",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "180",
@@ -3389,7 +4174,9 @@
   },
   {
     "title": "ぼくらのはじまりのおと",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.7,
     "bpm": "275",
@@ -3400,7 +4187,9 @@
   },
   {
     "title": "Borealis",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "196",
@@ -3411,7 +4200,9 @@
   },
   {
     "title": "POSSESSION (Aoi Q.E.D. RMX)",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.6,
     "bpm": "106–318",
@@ -3422,7 +4213,9 @@
   },
   {
     "title": "POSSESSION(Gowrock Remix)",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "158",
@@ -3433,7 +4226,9 @@
   },
   {
     "title": "ポメグラネイト",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "130",
@@ -3444,7 +4239,9 @@
   },
   {
     "title": "Macuilxochitl (Latin Jazz Mix)",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.7,
     "bpm": "156",
@@ -3455,7 +4252,9 @@
   },
   {
     "title": "マサカリブレイド",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18.3,
     "bpm": "194",
@@ -3466,7 +4265,9 @@
   },
   {
     "title": "MΔX FLAVØR",
-    "category": "トリッキー",
+    "category": [
+      "トリッキー"
+    ],
     "grade": 18,
     "level": 18.7,
     "bpm": "125–261",
@@ -3477,7 +4278,9 @@
   },
   {
     "title": "Mayohiga Spurt",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "192",
@@ -3488,7 +4291,9 @@
   },
   {
     "title": "Mischievous theater",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "155",
@@ -3499,7 +4304,9 @@
   },
   {
     "title": "禊",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.6,
     "bpm": "160",
@@ -3510,7 +4317,9 @@
   },
   {
     "title": "みたらしプラトニック (feat. nicamoq)",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "160",
@@ -3521,7 +4330,9 @@
   },
   {
     "title": "MICHIZURE",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "150",
@@ -3532,7 +4343,9 @@
   },
   {
     "title": "夢幻泡影",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.7,
     "bpm": "269",
@@ -3543,7 +4356,9 @@
   },
   {
     "title": "無双",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "180",
@@ -3554,7 +4369,9 @@
   },
   {
     "title": "MURASAME",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 18,
     "level": 18.8,
     "bpm": "140",
@@ -3565,7 +4382,9 @@
   },
   {
     "title": "Μοῦσα",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "200",
@@ -3576,7 +4395,9 @@
   },
   {
     "title": "MAYHEM",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 18,
     "level": 18.3,
     "bpm": "998",
@@ -3587,7 +4408,9 @@
   },
   {
     "title": "メテオライツ・プレリュード",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "190",
@@ -3598,7 +4421,9 @@
   },
   {
     "title": "Melty Sweets",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "177",
@@ -3609,7 +4434,9 @@
   },
   {
     "title": "柳の下のデュラハン hard chaos mix",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "220",
@@ -3620,7 +4447,9 @@
   },
   {
     "title": "夢見草奇譚",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "165",
@@ -3631,7 +4460,9 @@
   },
   {
     "title": "You Are My Best RivaL!!",
-    "category": "トリッキー",
+    "category": [
+      "トリッキー"
+    ],
     "grade": 18,
     "level": 18.7,
     "bpm": "240",
@@ -3642,7 +4473,9 @@
   },
   {
     "title": "U.N.オーエンは彼女なのか？haru_naba Remix",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "140–200",
@@ -3653,7 +4486,9 @@
   },
   {
     "title": "You Only Live Twice",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "185",
@@ -3664,7 +4499,9 @@
   },
   {
     "title": "Line 4 Ruin -kohumix-",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "170",
@@ -3675,7 +4512,9 @@
   },
   {
     "title": "羅生門",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "230",
@@ -3686,7 +4525,9 @@
   },
   {
     "title": "LOVE TONIC",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "165",
@@ -3697,7 +4538,9 @@
   },
   {
     "title": "恋愛♡悪戯！？まじかる☆ぱふゅ～む！！",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18,
     "bpm": "212",
@@ -3708,7 +4551,14 @@
   },
   {
     "title": "REINCARNATION",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19.3,
     "bpm": "220",
@@ -3719,7 +4569,9 @@
   },
   {
     "title": "ЯegreT of MemoRy",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "215",
@@ -3730,7 +4582,9 @@
   },
   {
     "title": "Little princess has no identity.",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "185",
@@ -3741,7 +4595,9 @@
   },
   {
     "title": "Little Red Riding Hood",
-    "category": "ハンドトリップ",
+    "category": [
+      "ハンドトリップ"
+    ],
     "grade": 18,
     "level": 18.6,
     "bpm": "55",
@@ -3752,7 +4608,9 @@
   },
   {
     "title": "Rebuilding of Paradise Lost",
-    "category": "ピーク",
+    "category": [
+      "ピーク"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "190–280",
@@ -3763,7 +4621,9 @@
   },
   {
     "title": "REVOLVER",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "160",
@@ -3774,7 +4634,9 @@
   },
   {
     "title": "LubedeR",
-    "category": "ハンドトリップ",
+    "category": [
+      "ハンドトリップ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "256",
@@ -3785,7 +4647,14 @@
   },
   {
     "title": "LubedeR",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19.1,
     "bpm": "256",
@@ -3796,7 +4665,9 @@
   },
   {
     "title": "量子の海のリントヴルム",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "280",
@@ -3807,7 +4678,9 @@
   },
   {
     "title": "Lunatic Mare",
-    "category": "ツマミ",
+    "category": [
+      "ツマミ"
+    ],
     "grade": 18,
     "level": 18.2,
     "bpm": "245",
@@ -3818,7 +4691,9 @@
   },
   {
     "title": "Redshift",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.2,
     "bpm": "190",
@@ -3829,7 +4704,9 @@
   },
   {
     "title": "Rebellio",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.7,
     "bpm": "234",
@@ -3840,7 +4717,9 @@
   },
   {
     "title": "恋愛＝精度×認識力",
-    "category": "トリッキー",
+    "category": [
+      "トリッキー"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "3–333",
@@ -3851,7 +4730,9 @@
   },
   {
     "title": "Lost Emotion feat. nomico",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 17,
     "level": 17,
     "bpm": "172",
@@ -3862,7 +4743,14 @@
   },
   {
     "title": "Lord=Crossight",
-    "category": null,
+    "category": [
+      "ツマミ",
+      "ノーツ",
+      "トリッキー",
+      "ワンハンド",
+      "ハンドトリップ",
+      "ピーク"
+    ],
     "grade": 19,
     "level": 19.1,
     "bpm": "154",
@@ -3873,7 +4761,9 @@
   },
   {
     "title": "while (screen is blue)",
-    "category": "トリッキー",
+    "category": [
+      "トリッキー"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "64–255",
@@ -3884,7 +4774,9 @@
   },
   {
     "title": "WARNING×WARNING×WARNING",
-    "category": "ハンドトリップ",
+    "category": [
+      "ハンドトリップ"
+    ],
     "grade": 18,
     "level": 18.2,
     "bpm": "172",
@@ -3895,7 +4787,9 @@
   },
   {
     "title": "Vanishing Eidos",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "179",
@@ -3906,7 +4800,9 @@
   },
   {
     "title": "Virtual Bit",
-    "category": "ハンドトリップ",
+    "category": [
+      "ハンドトリップ"
+    ],
     "grade": 17,
     "level": 17.5,
     "bpm": "152",
@@ -3917,7 +4813,9 @@
   },
   {
     "title": "veRtrageS",
-    "category": "ワンハンド",
+    "category": [
+      "ワンハンド"
+    ],
     "grade": 18,
     "level": 18.5,
     "bpm": "190",
@@ -3928,7 +4826,9 @@
   },
   {
     "title": "Voice 7 Voice!!!!!!!",
-    "category": "ノーツ",
+    "category": [
+      "ノーツ"
+    ],
     "grade": 18,
     "level": 18.7,
     "bpm": "150",
@@ -3936,5 +4836,278 @@
     "jacket": "https://sdvxindex.com//img/1992_v2vrmx_kameria/jk_1992_5_b.webp",
     "chartUrl": "https://sdvxindex.com/s/1992/5/",
     "reading": "ゔぉいすななゔぉいす"
+  },
+  {
+    "title": "rhythmology study",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 17,
+    "level": 17.5,
+    "bpm": "270",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1023_rhythmology_furuya/jk_1023_5_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1023/5/",
+    "reading": "りずもろじーすたでぃ"
+  },
+  {
+    "title": "MAXIVCORD",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 17,
+    "level": 17.5,
+    "bpm": "154",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1284_maxivcord_djtaka/jk_1284_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1284/5/",
+    "reading": "まきしぶこーど"
+  },
+  {
+    "title": "黒蝶のワルツ",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 17,
+    "level": 17.5,
+    "bpm": "108–160",
+    "type": "exhaust",
+    "jacket": "https://sdvxindex.com//img/2225_waltzofdahlia_penoreri/jk_2225_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/2225/3/",
+    "reading": "こくちょうのわるつ"
+  },
+  {
+    "title": "Wheel",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 17,
+    "level": 17.5,
+    "bpm": "136",
+    "type": "heavenly",
+    "jacket": "https://sdvxindex.com//img/0139_wheel_syrufit/jk_0139_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/0139/4h/",
+    "reading": "ほいーる"
+  },
+  {
+    "title": "Juωpscare!!",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 18,
+    "level": 18.1,
+    "bpm": "90–128",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1934_jumpscare_cotatsu/jk_1934_5_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1934/5/",
+    "reading": "じゃんぷすけあ"
+  },
+  {
+    "title": "極彩天奏",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 18,
+    "level": 18.7,
+    "bpm": "156",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1011_gokusaitenso_kayuki/jk_1011_5_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1011/5/",
+    "reading": "ごくさいてんそう"
+  },
+  {
+    "title": "ドリームエンド・サバイバー(Hidra-Xjeil Remix)",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 18,
+    "level": 18.2,
+    "bpm": "215",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1996_dreamendrmx_hidra/jk_1996_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1996/5/",
+    "reading": "どりーむえんどさばいばーはいどらりみっくす"
+  },
+  {
+    "title": "NEO GRAVITY",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 18,
+    "level": 18.7,
+    "bpm": "165",
+    "type": "exceed",
+    "jacket": "https://sdvxindex.com//img/0788_neogravity_lapix/jk_0788_4_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/0788/4x/",
+    "reading": "ねおぐらびてぃ"
+  },
+  {
+    "title": "CadenzaMaiden",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 18,
+    "level": 18.6,
+    "bpm": "145–290",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1930_cadenzamaiden_uz/jk_1930_5_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1930/5/",
+    "reading": "かでんつぁめいでん"
+  },
+  {
+    "title": "D.I.X.",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 18,
+    "level": 18.7,
+    "bpm": "70–1080",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1936_dix_higurashisuzuri/jk_1936_5_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1936/5/",
+    "reading": "でぃす"
+  },
+  {
+    "title": "Test Flight",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 18,
+    "level": 18.5,
+    "bpm": "188",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1843_testflight_kuroma/jk_1843_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1843/5/",
+    "reading": "てすとふらいと"
+  },
+  {
+    "title": "灼熱Beach Side Bunny",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 18,
+    "level": 18.6,
+    "bpm": "153",
+    "type": "exhaust",
+    "jacket": "https://sdvxindex.com//img/0698_syakunetsu_djmass/jk_0698_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/0698/3/",
+    "reading": "しゃくねつびーちさいどばにー"
+  },
+  {
+    "title": "Vanishment for reconstruction",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 18,
+    "level": 18.5,
+    "bpm": "158",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/2309_vanishmentfor_kagetora/jk_2309_5_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/2309/5/",
+    "reading": "ばにっしゅめんとふぉーりこんすとらくしょん"
+  },
+  {
+    "title": "Fl0ating:",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 18,
+    "level": 18.6,
+    "bpm": "206",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1953_fl0ting_yuichinagao/jk_1953_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1953/5/",
+    "reading": "ふろーてぃんぐ"
+  },
+  {
+    "title": "Max Burning!!(GαineN Beyond yΩu Remix)",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 18,
+    "level": 18.5,
+    "bpm": "200",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1993_makubarmx_gainen/jk_1993_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1993/5/",
+    "reading": "まっくすばーにんぐがいねんびよんどゆーりみっくす"
+  },
+  {
+    "title": "Over The Top",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 18,
+    "level": 18.6,
+    "bpm": "205",
+    "type": "vivid",
+    "jacket": "https://sdvxindex.com//img/1554_overthetop_ashrount/jk_1554_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1554/4v/",
+    "reading": "おーゔぁーざとっぷ"
+  },
+  {
+    "title": "ちくたく2ちく2ぱ",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 18,
+    "level": 18.6,
+    "bpm": "190",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/2336_ticktackchikupa_risyuu/jk_2336_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/2336/5/",
+    "reading": "ちくたくちくたくちくちくぱ"
+  },
+  {
+    "title": "Broken 8cmix",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 18,
+    "level": 18.6,
+    "bpm": "150",
+    "type": "heavenly",
+    "jacket": "https://sdvxindex.com//img/0002_broken_iroha/jk_0002_4_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/0002/4h/",
+    "reading": "ぶろーくんえいとしーみっくす"
+  },
+  {
+    "title": "// If Summer Ever Comes_",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 19,
+    "level": 19.8,
+    "bpm": "155–185",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/2254_ifsummerevercomes_kuroma/jk_2254_5_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/2254/5/",
+    "reading": "いふさまーえゔぁーかむず"
+  },
+  {
+    "title": "混乱少女♥そふらんちゃん!!",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 19,
+    "level": 19.6,
+    "bpm": "32–259",
+    "type": "exceed",
+    "jacket": "https://sdvxindex.com//img/0653_konransyojo_kameria/jk_0653_4_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/0653/4x/",
+    "reading": "こんらんしょうじょそふらんちゃん"
+  },
+  {
+    "title": "2 Beasts Unchained",
+    "category": [
+      "Chaos"
+    ],
+    "grade": 19,
+    "level": 19.4,
+    "bpm": "175",
+    "type": "maximum",
+    "jacket": "https://sdvxindex.com//img/1847_2beasts_korskyooh/jk_1847_1_b.webp",
+    "chartUrl": "https://sdvxindex.com/s/1847/5/",
+    "reading": "とぅーびーすつあんちぇいんど"
   }
 ]

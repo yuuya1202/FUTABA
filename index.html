@@ -325,6 +325,7 @@ Index · HTML
         <option value="ワンハンド">ワンハンド</option>
         <option value="ハンドトリップ">ハンドトリップ</option>
         <option value="ピーク">ピーク</option>
+        <option value="Chaos">Chaos</option>
       </select>
     </div>
     <div class="hdr-select-wrap">
@@ -440,6 +441,13 @@ function esc(s) {
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 }
  
+// category は配列(新形式)・文字列(旧形式)・null の混在に対応
+function hasCategory(song, cat) {
+  const c = song.category;
+  if (Array.isArray(c)) return c.includes(cat);
+  return c === cat;
+}
+ 
 /* ── GRADE DROPDOWN ── */
 function setGradeFilter(val) {
   fGrade = val;
@@ -477,7 +485,7 @@ function applyFilters() {
     if (fGrade === '17' && s.level > 17.5) return false;
     if (fGrade === '18' && (s.level < 18.0 || s.level >= 19.0)) return false;
     if (fGrade === '19' && s.level < 19.0) return false;
-    if (fCat !== 'all' && s.category !== fCat) return false;
+    if (fCat !== 'all' && !hasCategory(s, fCat)) return false;
     return true;
   });
  
